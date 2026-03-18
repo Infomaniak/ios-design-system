@@ -1,0 +1,15 @@
+{
+  "originHash" : "d8824a6564a2448314718b5b2a27c376413069eb49bf76522178c5e5ce1cc040",
+  "pins" : [
+    {
+      "identity" : "ios-design-system",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Infomaniak/ios-design-system",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7939b568f5b6f19ce3e4dcd90673f1d642b3ead8"
+      }
+    }
+  ],
+  "version" : 3
+}
