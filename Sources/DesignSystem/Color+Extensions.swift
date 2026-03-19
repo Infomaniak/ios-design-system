@@ -1,6 +1,6 @@
 //
 //  Color+Extensions.swift
-//  iOSDesignSystem
+//  DesignSystem
 //
 //  Created by Jordan on 18.03.2026.
 //

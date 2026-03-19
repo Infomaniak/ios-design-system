@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17EB689B2F6B03DD00F46174 /* iOSDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* iOSDesignSystem */; };
+		17EB689B2F6B03DD00F46174 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* DesignSystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17EB689B2F6B03DD00F46174 /* iOSDesignSystem in Frameworks */,
+				17EB689B2F6B03DD00F46174 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			);
 			name = "DesignSystem Catalog";
 			packageProductDependencies = (
-				17EB689A2F6B03DD00F46174 /* iOSDesignSystem */,
+				17EB689A2F6B03DD00F46174 /* DesignSystem */,
 			);
 			productName = "DesignSystem Catalog";
 			productReference = 170FCF232F435DB7005D27EE /* DesignSystem Catalog.app */;
@@ -395,10 +395,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		17EB689A2F6B03DD00F46174 /* iOSDesignSystem */ = {
+		17EB689A2F6B03DD00F46174 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 17EB68992F6B03DD00F46174 /* XCRemoteSwiftPackageReference "ios-design-system" */;
-			productName = iOSDesignSystem;
+			productName = DesignSystem;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
