@@ -18,18 +18,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+public struct ESDSTheme: Sendable {
+    static let infomaniak = ESDSTheme() // TODO: Remove when the generated ones come
+}
+
+private struct ESDSThemeKey: EnvironmentKey {
+    static let defaultValue: ESDSTheme = .infomaniak
+}
+
+public extension EnvironmentValues {
+    var esdsTheme: ESDSTheme {
+        get { self[ESDSThemeKey.self] }
+        set { self[ESDSThemeKey.self] = newValue }
     }
 }
 
-#Preview {
-    ContentView()
+public extension View {
+    func esdsTheme(_ theme: ESDSTheme) -> some View {
+        environment(\.esdsTheme, theme)
+    }
 }

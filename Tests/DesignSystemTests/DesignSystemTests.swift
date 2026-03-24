@@ -16,20 +16,9 @@
  along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-import SwiftUI
+@testable import DesignSystem
+import Testing
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
+@Test func example() async throws {
+    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
 }
