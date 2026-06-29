@@ -18,23 +18,19 @@
 
 import SwiftUI
 
-public struct ESDSTheme: Sendable {
-    static let infomaniak = ESDSTheme() // TODO: Remove when the generated ones come
-}
-
-private struct ESDSThemeKey: EnvironmentKey {
-    static let defaultValue: ESDSTheme = .infomaniak
+private struct EsdsThemeKey: EnvironmentKey {
+    static let defaultValue: EsdsTheme = .infomaniak
 }
 
 public extension EnvironmentValues {
-    var esdsTheme: ESDSTheme {
-        get { self[ESDSThemeKey.self] }
-        set { self[ESDSThemeKey.self] = newValue }
+    var esdsTheme: EsdsTheme {
+        get { self[EsdsThemeKey.self] }
+        set { self[EsdsThemeKey.self] = newValue }
     }
 }
 
 public extension View {
-    func esdsTheme(_ theme: ESDSTheme) -> some View {
+    func esdsTheme(_ theme: EsdsTheme) -> some View {
         environment(\.esdsTheme, theme)
     }
 }
