@@ -1,0 +1,3 @@
+[tools]
+swiftformat = { version = "0.58.6", os = ["macos", "linux"] }
+swiftlint = { version = "0.62.2", os = ["macos", "linux"] }

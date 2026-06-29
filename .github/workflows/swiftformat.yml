@@ -1,0 +1,24 @@
+name: SwiftFormat
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  swiftformat:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.fork == false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: jdx/mise-action@6d1e696aa24c1aa1bcc1adea0212707c71ab78a8
+
+      - name: Run SwiftFormat
+        run: swiftformat .
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403
+        with:
+          commit_message: "chore: Apply swiftformat"
+          branch: ${{ github.head_ref }}
