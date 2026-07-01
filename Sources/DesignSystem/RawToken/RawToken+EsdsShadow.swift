@@ -1,34 +1,34 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
-extension RawToken {
-   public enum EsdsShadow {
-     static public let xsX: CGFloat = 0
-     static public let xsY: CGFloat = 1
-     static public let xsBlur: CGFloat = 1
-     static public let xsSpread: CGFloat = 0
-     static public let smX: CGFloat = 0
-     static public let smY: CGFloat = 1
-     static public let smBlur: CGFloat = 2
-     static public let smSpread: CGFloat = 0
-     static public let mdX: CGFloat = 0
-     static public let mdY: CGFloat = 2
-     static public let mdBlur: CGFloat = 4
-     static public let mdSpread: CGFloat = -1
-     static public let lgX: CGFloat = 0
-     static public let lgY: CGFloat = 4
-     static public let lgBlur: CGFloat = 6
-     static public let lgSpread: CGFloat = -3
-     static public let xlX: CGFloat = 0
-     static public let xlY: CGFloat = 10
-     static public let xlBlur: CGFloat = 10
-     static public let xlSpread: CGFloat = -6
-     static public let twoXlX: CGFloat = 0
-     static public let twoXlY: CGFloat = 25
-     static public let twoXlBlur: CGFloat = 50
-     static public let twoXlSpread: CGFloat = -12
-   }
- }
+public extension RawToken {
+    enum EsdsShadow {
+        public static let xsX: CGFloat = 0
+        public static let xsY: CGFloat = 1
+        public static let xsBlur: CGFloat = 1
+        public static let xsSpread: CGFloat = 0
+        public static let smX: CGFloat = 0
+        public static let smY: CGFloat = 1
+        public static let smBlur: CGFloat = 2
+        public static let smSpread: CGFloat = 0
+        public static let mdX: CGFloat = 0
+        public static let mdY: CGFloat = 2
+        public static let mdBlur: CGFloat = 4
+        public static let mdSpread: CGFloat = -1
+        public static let lgX: CGFloat = 0
+        public static let lgY: CGFloat = 4
+        public static let lgBlur: CGFloat = 6
+        public static let lgSpread: CGFloat = -3
+        public static let xlX: CGFloat = 0
+        public static let xlY: CGFloat = 10
+        public static let xlBlur: CGFloat = 10
+        public static let xlSpread: CGFloat = -6
+        public static let twoXlX: CGFloat = 0
+        public static let twoXlY: CGFloat = 25
+        public static let twoXlBlur: CGFloat = 50
+        public static let twoXlSpread: CGFloat = -12
+    }
+}
