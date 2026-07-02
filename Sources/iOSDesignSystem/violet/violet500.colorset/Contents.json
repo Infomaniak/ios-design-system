@@ -1,0 +1,20 @@
+{
+  "colors": [
+    {
+      "color": {
+        "color-space": "sRGB",
+        "components": {
+          "red": "0x9a",
+          "green": "0x52",
+          "blue": "0xfa",
+          "alpha": "0xFF"
+        }
+      },
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "esds",
+    "version": 1
+  }
+}
