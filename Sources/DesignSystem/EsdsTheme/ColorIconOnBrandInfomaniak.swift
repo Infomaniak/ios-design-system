@@ -1,17 +1,17 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
 public extension EsdsTheme.Color.Icon.On.Brand {
-   struct Infomaniak: Sendable {
-     public let `default`: Color
-     
-     init(
-       `default`: Color = PrimitiveToken.Color.iconOnBrandInfomaniakDefault
-     ) {
-       self.`default` = `default`
-     }
-   }
- }
+    struct Infomaniak: Sendable {
+        public let `default`: Color
+
+        init(
+            default: Color = PrimitiveToken.Color.iconOnBrandInfomaniakDefault
+        ) {
+            self.default = `default`
+        }
+    }
+}
