@@ -1,15 +1,15 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
 public struct EsdsColorIconOnDatavizPink: Sendable {
-   public let `default`: Color
-   
-   init(
-     `default`: Color = PrimitiveToken.Color.iconOnDatavizPinkDefault
-   ) {
-     self.`default` = `default`
-   }
- }
+    public let `default`: Color
+
+    init(
+        default: Color = PrimitiveToken.Color.iconOnDatavizPinkDefault
+    ) {
+        self.default = `default`
+    }
+}

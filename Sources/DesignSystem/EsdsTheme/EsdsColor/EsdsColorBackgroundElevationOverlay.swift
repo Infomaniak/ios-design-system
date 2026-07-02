@@ -1,24 +1,24 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
 public struct EsdsColorBackgroundElevationOverlay: Sendable {
-   public let `default`: Color
-   public let hover: Color
-   public let pressed: Color
-   public let selected: Color
-   
-   init(
-     `default`: Color = PrimitiveToken.Color.backgroundElevationOverlayDefault,
-     hover: Color = PrimitiveToken.Color.backgroundElevationOverlayHover,
-     pressed: Color = PrimitiveToken.Color.backgroundElevationOverlayPressed,
-     selected: Color = PrimitiveToken.Color.backgroundElevationOverlaySelected
-   ) {
-     self.`default` = `default`
-     self.hover = hover
-     self.pressed = pressed
-     self.selected = selected
-   }
- }
+    public let `default`: Color
+    public let hover: Color
+    public let pressed: Color
+    public let selected: Color
+
+    init(
+        default: Color = PrimitiveToken.Color.backgroundElevationOverlayDefault,
+        hover: Color = PrimitiveToken.Color.backgroundElevationOverlayHover,
+        pressed: Color = PrimitiveToken.Color.backgroundElevationOverlayPressed,
+        selected: Color = PrimitiveToken.Color.backgroundElevationOverlaySelected
+    ) {
+        self.default = `default`
+        self.hover = hover
+        self.pressed = pressed
+        self.selected = selected
+    }
+}

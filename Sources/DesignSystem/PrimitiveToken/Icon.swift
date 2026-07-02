@@ -1,15 +1,15 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
-extension PrimitiveToken {
-   public enum Icon {
-     static public let sizeXs: CGFloat = 16
-     static public let sizeMd: CGFloat = 24
-     static public let sizeLg: CGFloat = 32
-     static public let sizeSm: CGFloat = 20
-     static public let sizeXl: CGFloat = 40
-   }
- }
+public extension PrimitiveToken {
+    enum Icon {
+        public static let sizeXs: CGFloat = 16
+        public static let sizeMd: CGFloat = 24
+        public static let sizeLg: CGFloat = 32
+        public static let sizeSm: CGFloat = 20
+        public static let sizeXl: CGFloat = 40
+    }
+}
