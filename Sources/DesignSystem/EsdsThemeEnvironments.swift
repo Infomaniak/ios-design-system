@@ -18,10 +18,6 @@
 
 import SwiftUI
 
-public struct ESDSTheme: Sendable {
-    static let infomaniak = ESDSTheme() // TODO: Remove when the generated ones come
-}
-
 private struct ESDSThemeKey: EnvironmentKey {
     static let defaultValue: ESDSTheme = .infomaniak
 }
