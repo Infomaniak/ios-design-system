@@ -1,17 +1,17 @@
 /*
-  Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import SwiftUI
 
 public extension EsdsTheme.Color.Text.On.Brand {
-   struct Calendar: Sendable {
-     public let `default`: Color
-     
-     init(
-       `default`: Color = PrimitiveToken.Color.textOnBrandCalendarDefault
-     ) {
-       self.`default` = `default`
-     }
-   }
- }
+    struct Calendar: Sendable {
+        public let `default`: Color
+
+        init(
+            default: Color = PrimitiveToken.Color.textOnBrandCalendarDefault
+        ) {
+            self.default = `default`
+        }
+    }
+}
