@@ -10,6 +10,7 @@ disabled_rules:
  - inclusive_language
  - for_where
  - optional_data_string_conversion
+ - trailing_comma
 opt_in_rules:
  - closure_end_indentation
  - closure_spacing
@@ -33,19 +34,12 @@ opt_in_rules:
  - unneeded_parentheses_in_closure_argument
 analyzer_rules:
  - unused_import
-included:
- - Mail
- - MailAppIntentsExtension
- - MailCore
- - MailCoreUI
- - MailNotificationContentExtension
- - MailNotificationServiceExtension
- - MailShareExtension
- - MailTests
- - MailUITests
- - Project.swift
- - Tuist/Package.swift
- - Tuist/ProjectDescriptionHelpers
+excluded:
+ - Derived/Sources/*
+ - DerivedData/
+ - Derived/
+ - Tuist/.build/
+ - Tests/*
 custom_rules:
   private_state:
     included:
