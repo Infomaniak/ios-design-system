@@ -1,24 +1,41 @@
 /*
+ Infomaniak Design System - iOS
+ Copyright (C) 2026 Infomaniak Network SA
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
  Do not edit directly, this file was auto-generated.
  */
 
+import ESDSPrimitives
 import Foundation
 
 extension ESDSTheme.Spacing {
     static let dummy = ESDSTheme.Spacing(
-        eightXl: 0,
-        fiveXl: 0,
-        fourXl: 0,
-        lg: 0,
-        md: 0,
-        none: 0,
-        sevenXl: 0,
-        sixXl: 0,
-        sm: 0,
-        threeXl: 0,
-        twoXl: 0,
-        twoXs: 0,
-        xl: 0,
-        xs: 0
+        eightXl: PrimitiveToken.Spacing.oneHundred,
+        fiveXl: PrimitiveToken.Spacing.forty,
+        fourXl: PrimitiveToken.Spacing.thirtyTwo,
+        lg: PrimitiveToken.Spacing.twelve,
+        md: PrimitiveToken.Spacing.eight,
+        none: PrimitiveToken.Spacing.zero,
+        sevenXl: PrimitiveToken.Spacing.sixtyFour,
+        sixXl: PrimitiveToken.Spacing.fortyEight,
+        sm: PrimitiveToken.Spacing.six,
+        threeXl: PrimitiveToken.Spacing.twentyFour,
+        twoXl: PrimitiveToken.Spacing.twenty,
+        twoXs: PrimitiveToken.Spacing.two,
+        xl: PrimitiveToken.Spacing.sixteen,
+        xs: PrimitiveToken.Spacing.four
     )
 }
