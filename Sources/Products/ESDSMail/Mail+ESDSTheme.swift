@@ -1,6 +1,6 @@
 /*
-    Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
 import ESDSFoundation
 

@@ -1,19 +1,25 @@
 /*
-    Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
-import SwiftUI
 import ESDSFoundation
 import ESDSPrimitives
+import SwiftUI
 
 extension ESDSTheme.Color {
     static let contacts = ESDSTheme.Color(
         backgroundBrandCalendarDefault: SwiftUI.Color(light: PrimitiveToken.Color.aqua400, dark: PrimitiveToken.Color.aqua300),
         backgroundBrandCalendarHover: SwiftUI.Color(light: PrimitiveToken.Color.aqua500, dark: PrimitiveToken.Color.aqua200),
         backgroundBrandCalendarPressed: SwiftUI.Color(light: PrimitiveToken.Color.aqua600, dark: PrimitiveToken.Color.aqua400),
-        backgroundBrandContactsDefault: SwiftUI.Color(light: PrimitiveToken.Color.violet300, dark: PrimitiveToken.Color.violet300),
+        backgroundBrandContactsDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.violet300,
+            dark: PrimitiveToken.Color.violet300
+        ),
         backgroundBrandContactsHover: SwiftUI.Color(light: PrimitiveToken.Color.violet400, dark: PrimitiveToken.Color.violet200),
-        backgroundBrandContactsPressed: SwiftUI.Color(light: PrimitiveToken.Color.violet500, dark: PrimitiveToken.Color.violet400),
+        backgroundBrandContactsPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.violet500,
+            dark: PrimitiveToken.Color.violet400
+        ),
         backgroundBrandDefault: SwiftUI.Color(light: PrimitiveToken.Color.violet300, dark: PrimitiveToken.Color.violet300),
         backgroundBrandEuriaDefault: SwiftUI.Color(light: PrimitiveToken.Color.ocean700, dark: PrimitiveToken.Color.ocean400),
         backgroundBrandEuriaHover: SwiftUI.Color(light: PrimitiveToken.Color.ocean800, dark: PrimitiveToken.Color.ocean300),
@@ -35,17 +41,35 @@ extension ESDSTheme.Color {
         backgroundBrandMailHover: SwiftUI.Color(light: PrimitiveToken.Color.pink600, dark: PrimitiveToken.Color.pink200),
         backgroundBrandMailPressed: SwiftUI.Color(light: PrimitiveToken.Color.pink700, dark: PrimitiveToken.Color.pink400),
         backgroundBrandPressed: SwiftUI.Color(light: PrimitiveToken.Color.violet500, dark: PrimitiveToken.Color.violet400),
-        backgroundBrandSecurityDefault: SwiftUI.Color(light: PrimitiveToken.Color.purple600, dark: PrimitiveToken.Color.purple300),
+        backgroundBrandSecurityDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.purple600,
+            dark: PrimitiveToken.Color.purple300
+        ),
         backgroundBrandSecurityHover: SwiftUI.Color(light: PrimitiveToken.Color.purple700, dark: PrimitiveToken.Color.purple200),
-        backgroundBrandSecurityPressed: SwiftUI.Color(light: PrimitiveToken.Color.purple800, dark: PrimitiveToken.Color.purple400),
-        backgroundBrandSwisstransferDefault: SwiftUI.Color(light: PrimitiveToken.Color.emerald500, dark: PrimitiveToken.Color.emerald300),
-        backgroundBrandSwisstransferHover: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald200),
-        backgroundBrandSwisstransferPressed: SwiftUI.Color(light: PrimitiveToken.Color.emerald700, dark: PrimitiveToken.Color.emerald400),
+        backgroundBrandSecurityPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.purple800,
+            dark: PrimitiveToken.Color.purple400
+        ),
+        backgroundBrandSwisstransferDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald500,
+            dark: PrimitiveToken.Color.emerald300
+        ),
+        backgroundBrandSwisstransferHover: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald200
+        ),
+        backgroundBrandSwisstransferPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald700,
+            dark: PrimitiveToken.Color.emerald400
+        ),
         backgroundDisabled: SwiftUI.Color(light: PrimitiveToken.Color.gray200, dark: PrimitiveToken.Color.gray800),
         backgroundElevationOverlayDefault: SwiftUI.Color(light: PrimitiveToken.Color.gray100, dark: PrimitiveToken.Color.gray800),
         backgroundElevationOverlayHover: SwiftUI.Color(light: PrimitiveToken.Color.gray200, dark: PrimitiveToken.Color.gray700),
         backgroundElevationOverlayPressed: SwiftUI.Color(light: PrimitiveToken.Color.gray300, dark: PrimitiveToken.Color.gray900),
-        backgroundElevationOverlaySelected: SwiftUI.Color(light: PrimitiveToken.Color.gray400, dark: PrimitiveToken.Color.gray800),
+        backgroundElevationOverlaySelected: SwiftUI.Color(
+            light: PrimitiveToken.Color.gray400,
+            dark: PrimitiveToken.Color.gray800
+        ),
         backgroundElevationRaisedDefault: SwiftUI.Color(light: PrimitiveToken.Color.white, dark: PrimitiveToken.Color.gray800),
         backgroundElevationRaisedHover: SwiftUI.Color(light: PrimitiveToken.Color.gray50, dark: PrimitiveToken.Color.gray700),
         backgroundElevationRaisedPressed: SwiftUI.Color(light: PrimitiveToken.Color.gray100, dark: PrimitiveToken.Color.gray900),
@@ -57,25 +81,64 @@ extension ESDSTheme.Color {
         backgroundElevationSurfaceDefault: SwiftUI.Color(light: PrimitiveToken.Color.white, dark: PrimitiveToken.Color.gray800),
         backgroundElevationSurfaceHover: SwiftUI.Color(light: PrimitiveToken.Color.gray50, dark: PrimitiveToken.Color.gray700),
         backgroundElevationSurfacePressed: SwiftUI.Color(light: PrimitiveToken.Color.gray100, dark: PrimitiveToken.Color.gray900),
-        backgroundElevationSurfaceSelected: SwiftUI.Color(light: PrimitiveToken.Color.gray200, dark: PrimitiveToken.Color.gray800),
+        backgroundElevationSurfaceSelected: SwiftUI.Color(
+            light: PrimitiveToken.Color.gray200,
+            dark: PrimitiveToken.Color.gray800
+        ),
         backgroundFeedbackErrorDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.red500, dark: PrimitiveToken.Color.red400),
         backgroundFeedbackErrorDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.red600, dark: PrimitiveToken.Color.red300),
         backgroundFeedbackErrorDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.red700, dark: PrimitiveToken.Color.red500),
         backgroundFeedbackErrorDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.red200, dark: PrimitiveToken.Color.red900),
         backgroundFeedbackErrorDim2Hover: SwiftUI.Color(light: PrimitiveToken.Color.red300, dark: PrimitiveToken.Color.red800),
         backgroundFeedbackErrorDim2Pressed: SwiftUI.Color(light: PrimitiveToken.Color.red400, dark: PrimitiveToken.Color.red950),
-        backgroundFeedbackSuccessDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.lime500, dark: PrimitiveToken.Color.lime400),
-        backgroundFeedbackSuccessDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.lime600, dark: PrimitiveToken.Color.lime300),
-        backgroundFeedbackSuccessDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.lime700, dark: PrimitiveToken.Color.lime500),
-        backgroundFeedbackSuccessDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.lime200, dark: PrimitiveToken.Color.lime900),
-        backgroundFeedbackSuccessDim2Hover: SwiftUI.Color(light: PrimitiveToken.Color.lime300, dark: PrimitiveToken.Color.lime800),
-        backgroundFeedbackSuccessDim2Pressed: SwiftUI.Color(light: PrimitiveToken.Color.lime400, dark: PrimitiveToken.Color.lime950),
-        backgroundFeedbackWarningDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.orange400, dark: PrimitiveToken.Color.orange300),
-        backgroundFeedbackWarningDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.orange500, dark: PrimitiveToken.Color.orange200),
-        backgroundFeedbackWarningDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.orange600, dark: PrimitiveToken.Color.orange400),
-        backgroundFeedbackWarningDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.orange200, dark: PrimitiveToken.Color.orange900),
-        backgroundFeedbackWarningDim2Hover: SwiftUI.Color(light: PrimitiveToken.Color.orange300, dark: PrimitiveToken.Color.orange800),
-        backgroundFeedbackWarningDim2Pressed: SwiftUI.Color(light: PrimitiveToken.Color.orange400, dark: PrimitiveToken.Color.orange950),
+        backgroundFeedbackSuccessDim1Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime500,
+            dark: PrimitiveToken.Color.lime400
+        ),
+        backgroundFeedbackSuccessDim1Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime600,
+            dark: PrimitiveToken.Color.lime300
+        ),
+        backgroundFeedbackSuccessDim1Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime700,
+            dark: PrimitiveToken.Color.lime500
+        ),
+        backgroundFeedbackSuccessDim2Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime200,
+            dark: PrimitiveToken.Color.lime900
+        ),
+        backgroundFeedbackSuccessDim2Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime300,
+            dark: PrimitiveToken.Color.lime800
+        ),
+        backgroundFeedbackSuccessDim2Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.lime400,
+            dark: PrimitiveToken.Color.lime950
+        ),
+        backgroundFeedbackWarningDim1Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange400,
+            dark: PrimitiveToken.Color.orange300
+        ),
+        backgroundFeedbackWarningDim1Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange500,
+            dark: PrimitiveToken.Color.orange200
+        ),
+        backgroundFeedbackWarningDim1Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange600,
+            dark: PrimitiveToken.Color.orange400
+        ),
+        backgroundFeedbackWarningDim2Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange200,
+            dark: PrimitiveToken.Color.orange900
+        ),
+        backgroundFeedbackWarningDim2Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange300,
+            dark: PrimitiveToken.Color.orange800
+        ),
+        backgroundFeedbackWarningDim2Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange400,
+            dark: PrimitiveToken.Color.orange950
+        ),
         borderBrandCalendarDefault: SwiftUI.Color(light: PrimitiveToken.Color.aqua400, dark: PrimitiveToken.Color.aqua300),
         borderBrandCalendarHover: SwiftUI.Color(light: PrimitiveToken.Color.aqua500, dark: PrimitiveToken.Color.aqua200),
         borderBrandCalendarPressed: SwiftUI.Color(light: PrimitiveToken.Color.aqua600, dark: PrimitiveToken.Color.aqua400),
@@ -106,9 +169,18 @@ extension ESDSTheme.Color {
         borderBrandSecurityDefault: SwiftUI.Color(light: PrimitiveToken.Color.purple600, dark: PrimitiveToken.Color.purple300),
         borderBrandSecurityHover: SwiftUI.Color(light: PrimitiveToken.Color.purple700, dark: PrimitiveToken.Color.purple200),
         borderBrandSecurityPressed: SwiftUI.Color(light: PrimitiveToken.Color.purple800, dark: PrimitiveToken.Color.purple400),
-        borderBrandSwisstransferDefault: SwiftUI.Color(light: PrimitiveToken.Color.emerald500, dark: PrimitiveToken.Color.emerald300),
-        borderBrandSwisstransferHover: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald200),
-        borderBrandSwisstransferPressed: SwiftUI.Color(light: PrimitiveToken.Color.emerald700, dark: PrimitiveToken.Color.emerald400),
+        borderBrandSwisstransferDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald500,
+            dark: PrimitiveToken.Color.emerald300
+        ),
+        borderBrandSwisstransferHover: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald200
+        ),
+        borderBrandSwisstransferPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald700,
+            dark: PrimitiveToken.Color.emerald400
+        ),
         borderDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.gray400, dark: PrimitiveToken.Color.gray500),
         borderDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.gray500, dark: PrimitiveToken.Color.gray400),
         borderDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.gray600, dark: PrimitiveToken.Color.gray600),
@@ -133,12 +205,30 @@ extension ESDSTheme.Color {
         borderFeedbackSuccessDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.lime200, dark: PrimitiveToken.Color.lime700),
         borderFeedbackSuccessDim2Hover: SwiftUI.Color(light: PrimitiveToken.Color.lime300, dark: PrimitiveToken.Color.lime600),
         borderFeedbackSuccessDim2Pressed: SwiftUI.Color(light: PrimitiveToken.Color.lime400, dark: PrimitiveToken.Color.lime900),
-        borderFeedbackWarningDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.orange600, dark: PrimitiveToken.Color.orange400),
-        borderFeedbackWarningDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.orange700, dark: PrimitiveToken.Color.orange300),
-        borderFeedbackWarningDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.orange800, dark: PrimitiveToken.Color.orange500),
-        borderFeedbackWarningDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.orange200, dark: PrimitiveToken.Color.orange700),
-        borderFeedbackWarningDim2Hover: SwiftUI.Color(light: PrimitiveToken.Color.orange300, dark: PrimitiveToken.Color.orange600),
-        borderFeedbackWarningDim2Pressed: SwiftUI.Color(light: PrimitiveToken.Color.orange400, dark: PrimitiveToken.Color.orange900),
+        borderFeedbackWarningDim1Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange600,
+            dark: PrimitiveToken.Color.orange400
+        ),
+        borderFeedbackWarningDim1Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange700,
+            dark: PrimitiveToken.Color.orange300
+        ),
+        borderFeedbackWarningDim1Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange800,
+            dark: PrimitiveToken.Color.orange500
+        ),
+        borderFeedbackWarningDim2Default: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange200,
+            dark: PrimitiveToken.Color.orange700
+        ),
+        borderFeedbackWarningDim2Hover: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange300,
+            dark: PrimitiveToken.Color.orange600
+        ),
+        borderFeedbackWarningDim2Pressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.orange400,
+            dark: PrimitiveToken.Color.orange900
+        ),
         iconBrandCalendarDefault: SwiftUI.Color(light: PrimitiveToken.Color.aqua600, dark: PrimitiveToken.Color.aqua400),
         iconBrandCalendarHover: SwiftUI.Color(light: PrimitiveToken.Color.aqua700, dark: PrimitiveToken.Color.aqua300),
         iconBrandCalendarPressed: SwiftUI.Color(light: PrimitiveToken.Color.aqua800, dark: PrimitiveToken.Color.aqua500),
@@ -169,9 +259,15 @@ extension ESDSTheme.Color {
         iconBrandSecurityDefault: SwiftUI.Color(light: PrimitiveToken.Color.purple600, dark: PrimitiveToken.Color.purple400),
         iconBrandSecurityHover: SwiftUI.Color(light: PrimitiveToken.Color.purple700, dark: PrimitiveToken.Color.purple300),
         iconBrandSecurityPressed: SwiftUI.Color(light: PrimitiveToken.Color.purple800, dark: PrimitiveToken.Color.purple500),
-        iconBrandSwisstransferDefault: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald400),
+        iconBrandSwisstransferDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald400
+        ),
         iconBrandSwisstransferHover: SwiftUI.Color(light: PrimitiveToken.Color.emerald700, dark: PrimitiveToken.Color.emerald300),
-        iconBrandSwisstransferPressed: SwiftUI.Color(light: PrimitiveToken.Color.emerald800, dark: PrimitiveToken.Color.emerald500),
+        iconBrandSwisstransferPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald800,
+            dark: PrimitiveToken.Color.emerald500
+        ),
         iconDisabled: SwiftUI.Color(light: PrimitiveToken.Color.gray400, dark: PrimitiveToken.Color.gray500),
         iconFeedbackErrorDefault: SwiftUI.Color(light: PrimitiveToken.Color.red700, dark: PrimitiveToken.Color.red300),
         iconFeedbackErrorHover: SwiftUI.Color(light: PrimitiveToken.Color.red800, dark: PrimitiveToken.Color.red200),
@@ -240,9 +336,15 @@ extension ESDSTheme.Color {
         textBrandSecurityDefault: SwiftUI.Color(light: PrimitiveToken.Color.purple600, dark: PrimitiveToken.Color.purple400),
         textBrandSecurityHover: SwiftUI.Color(light: PrimitiveToken.Color.purple700, dark: PrimitiveToken.Color.purple300),
         textBrandSecurityPressed: SwiftUI.Color(light: PrimitiveToken.Color.purple800, dark: PrimitiveToken.Color.purple500),
-        textBrandSwisstransferDefault: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald400),
+        textBrandSwisstransferDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald400
+        ),
         textBrandSwisstransferHover: SwiftUI.Color(light: PrimitiveToken.Color.emerald700, dark: PrimitiveToken.Color.emerald300),
-        textBrandSwisstransferPressed: SwiftUI.Color(light: PrimitiveToken.Color.emerald800, dark: PrimitiveToken.Color.emerald500),
+        textBrandSwisstransferPressed: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald800,
+            dark: PrimitiveToken.Color.emerald500
+        ),
         textDisabled: SwiftUI.Color(light: PrimitiveToken.Color.gray400, dark: PrimitiveToken.Color.gray500),
         textFeedbackErrorDefault: SwiftUI.Color(light: PrimitiveToken.Color.red700, dark: PrimitiveToken.Color.red300),
         textFeedbackErrorHover: SwiftUI.Color(light: PrimitiveToken.Color.red800, dark: PrimitiveToken.Color.red200),
@@ -264,7 +366,10 @@ extension ESDSTheme.Color {
         textOnBrandKnoteDefault: SwiftUI.Color(light: PrimitiveToken.Color.coral50, dark: PrimitiveToken.Color.coral950),
         textOnBrandMailDefault: SwiftUI.Color(light: PrimitiveToken.Color.pink50, dark: PrimitiveToken.Color.pink950),
         textOnBrandSecurityDefault: SwiftUI.Color(light: PrimitiveToken.Color.purple50, dark: PrimitiveToken.Color.purple950),
-        textOnBrandSwisstransferDefault: SwiftUI.Color(light: PrimitiveToken.Color.emerald950, dark: PrimitiveToken.Color.emerald950),
+        textOnBrandSwisstransferDefault: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald950,
+            dark: PrimitiveToken.Color.emerald950
+        ),
         textOnDisabled: SwiftUI.Color(light: PrimitiveToken.Color.gray400, dark: PrimitiveToken.Color.gray500),
         textOnFeedbackErrorDim1: SwiftUI.Color(light: PrimitiveToken.Color.red900, dark: PrimitiveToken.Color.red100),
         textOnFeedbackErrorDim2: SwiftUI.Color(light: PrimitiveToken.Color.red50, dark: PrimitiveToken.Color.red950),

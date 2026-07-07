@@ -1,10 +1,10 @@
 /*
-    Do not edit directly, this file was auto-generated.
-*/
+ Do not edit directly, this file was auto-generated.
+ */
 
-import Foundation
 import ESDSFoundation
 import ESDSPrimitives
+import Foundation
 
 extension ESDSTheme.Icon {
     static let calendar = ESDSTheme.Icon(
