@@ -1,0 +1,11 @@
+name: SwiftLint
+
+on: pull_request
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    uses: infomaniak/.github/.github/workflows/swiftlint.yml@v2
