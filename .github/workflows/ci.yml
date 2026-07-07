@@ -1,0 +1,30 @@
+name: CI workflow
+
+on:
+  pull_request:
+    branches: [ main ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build_and_test_iOS:
+    name: Build ESDS on iOS
+    runs-on: [ self-hosted, iOS ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Build
+        run: xcodebuild -scheme ESDSFoundation build -sdk iphonesimulator -destination "generic/platform=iOS"
+
+  build_and_test_macOS:
+    name: Build ESDS on macOS
+    runs-on: [ self-hosted, iOS ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Build
+        run: xcodebuild -scheme ESDSFoundation build -destination "generic/platform=macOS"
