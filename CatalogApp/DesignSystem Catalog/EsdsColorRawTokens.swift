@@ -35,14 +35,14 @@ public enum EsdsColors {
         case gray800
         case gray900
         case gray950
-        case gray400-10
-        case gray950-10
-        case gray400-6
-        case gray400-8
-        case gray400-14
-        case gray950-14
-        case gray950-6
-        case gray950-8
+        case gray400 - 10
+        case gray950 - 10
+        case gray400 - 6
+        case gray400 - 8
+        case gray400 - 14
+        case gray950 - 14
+        case gray950 - 6
+        case gray950 - 8
 
         public var color: Color {
             Color(rawValue)
