@@ -153,142 +153,77 @@ public extension ESDSTheme {
         public let borderFeedbackWarningDim2Default: SwiftUI.Color
         public let borderFeedbackWarningDim2Hover: SwiftUI.Color
         public let borderFeedbackWarningDim2Pressed: SwiftUI.Color
-        public let iconBrandCalendarDefault: SwiftUI.Color
-        public let iconBrandCalendarHover: SwiftUI.Color
-        public let iconBrandCalendarPressed: SwiftUI.Color
-        public let iconBrandContactsDefault: SwiftUI.Color
-        public let iconBrandContactsHover: SwiftUI.Color
-        public let iconBrandContactsPressed: SwiftUI.Color
-        public let iconBrandDefault: SwiftUI.Color
-        public let iconBrandEuriaDefault: SwiftUI.Color
-        public let iconBrandEuriaHover: SwiftUI.Color
-        public let iconBrandEuriaPressed: SwiftUI.Color
-        public let iconBrandHover: SwiftUI.Color
-        public let iconBrandInfomaniakDefault: SwiftUI.Color
-        public let iconBrandInfomaniakHover: SwiftUI.Color
-        public let iconBrandInfomaniakPressed: SwiftUI.Color
-        public let iconBrandKchatDefault: SwiftUI.Color
-        public let iconBrandKchatHover: SwiftUI.Color
-        public let iconBrandKchatPressed: SwiftUI.Color
-        public let iconBrandKdriveDefault: SwiftUI.Color
-        public let iconBrandKdriveHover: SwiftUI.Color
-        public let iconBrandKdrivePressed: SwiftUI.Color
-        public let iconBrandKnoteDefault: SwiftUI.Color
-        public let iconBrandKnoteHover: SwiftUI.Color
-        public let iconBrandKnotePressed: SwiftUI.Color
-        public let iconBrandMailDefault: SwiftUI.Color
-        public let iconBrandMailHover: SwiftUI.Color
-        public let iconBrandMailPressed: SwiftUI.Color
-        public let iconBrandPressed: SwiftUI.Color
-        public let iconBrandSecurityDefault: SwiftUI.Color
-        public let iconBrandSecurityHover: SwiftUI.Color
-        public let iconBrandSecurityPressed: SwiftUI.Color
-        public let iconBrandSwisstransferDefault: SwiftUI.Color
-        public let iconBrandSwisstransferHover: SwiftUI.Color
-        public let iconBrandSwisstransferPressed: SwiftUI.Color
-        public let iconDisabled: SwiftUI.Color
-        public let iconFeedbackErrorDefault: SwiftUI.Color
-        public let iconFeedbackErrorHover: SwiftUI.Color
-        public let iconFeedbackErrorPressed: SwiftUI.Color
-        public let iconFeedbackSuccessDefault: SwiftUI.Color
-        public let iconFeedbackSuccessHover: SwiftUI.Color
-        public let iconFeedbackSuccessPressed: SwiftUI.Color
-        public let iconFeedbackWarningDefault: SwiftUI.Color
-        public let iconFeedbackWarningHover: SwiftUI.Color
-        public let iconFeedbackWarningPressed: SwiftUI.Color
-        public let iconInverse: SwiftUI.Color
-        public let iconOnBrandCalendarDefault: SwiftUI.Color
-        public let iconOnBrandContactsDefault: SwiftUI.Color
-        public let iconOnBrandDefault: SwiftUI.Color
-        public let iconOnBrandEuriaDefault: SwiftUI.Color
-        public let iconOnBrandInfomaniakDefault: SwiftUI.Color
-        public let iconOnBrandKchatDefault: SwiftUI.Color
-        public let iconOnBrandKdriveDefault: SwiftUI.Color
-        public let iconOnBrandKnoteDefault: SwiftUI.Color
-        public let iconOnBrandMailDefault: SwiftUI.Color
-        public let iconOnBrandSecurityDefault: SwiftUI.Color
-        public let iconOnBrandSwisstransferDefault: SwiftUI.Color
-        public let iconOnDisabled: SwiftUI.Color
-        public let iconOnFeedbackErrorDim1: SwiftUI.Color
-        public let iconOnFeedbackErrorDim2: SwiftUI.Color
-        public let iconOnFeedbackSuccessDim1: SwiftUI.Color
-        public let iconOnFeedbackSuccessDim2: SwiftUI.Color
-        public let iconOnFeedbackWarningDim1: SwiftUI.Color
-        public let iconOnFeedbackWarningDim2: SwiftUI.Color
-        public let iconPrimary: SwiftUI.Color
-        public let iconSecondary: SwiftUI.Color
-        public let iconTertiary: SwiftUI.Color
+        public let contentBrandCalendarDefault: SwiftUI.Color
+        public let contentBrandCalendarHover: SwiftUI.Color
+        public let contentBrandCalendarPressed: SwiftUI.Color
+        public let contentBrandContactsDefault: SwiftUI.Color
+        public let contentBrandContactsHover: SwiftUI.Color
+        public let contentBrandContactsPressed: SwiftUI.Color
+        public let contentBrandDefault: SwiftUI.Color
+        public let contentBrandEuriaDefault: SwiftUI.Color
+        public let contentBrandEuriaHover: SwiftUI.Color
+        public let contentBrandEuriaPressed: SwiftUI.Color
+        public let contentBrandHover: SwiftUI.Color
+        public let contentBrandInfomaniakDefault: SwiftUI.Color
+        public let contentBrandInfomaniakHover: SwiftUI.Color
+        public let contentBrandInfomaniakPressed: SwiftUI.Color
+        public let contentBrandKchatDefault: SwiftUI.Color
+        public let contentBrandKchatHover: SwiftUI.Color
+        public let contentBrandKchatPressed: SwiftUI.Color
+        public let contentBrandKdriveDefault: SwiftUI.Color
+        public let contentBrandKdriveHover: SwiftUI.Color
+        public let contentBrandKdrivePressed: SwiftUI.Color
+        public let contentBrandKnoteDefault: SwiftUI.Color
+        public let contentBrandKnoteHover: SwiftUI.Color
+        public let contentBrandKnotePressed: SwiftUI.Color
+        public let contentBrandMailDefault: SwiftUI.Color
+        public let contentBrandMailHover: SwiftUI.Color
+        public let contentBrandMailPressed: SwiftUI.Color
+        public let contentBrandPressed: SwiftUI.Color
+        public let contentBrandSecurityDefault: SwiftUI.Color
+        public let contentBrandSecurityHover: SwiftUI.Color
+        public let contentBrandSecurityPressed: SwiftUI.Color
+        public let contentBrandSwisstransferDefault: SwiftUI.Color
+        public let contentBrandSwisstransferHover: SwiftUI.Color
+        public let contentBrandSwisstransferPressed: SwiftUI.Color
+        public let contentDisabled: SwiftUI.Color
+        public let contentFeedbackErrorDefault: SwiftUI.Color
+        public let contentFeedbackErrorHover: SwiftUI.Color
+        public let contentFeedbackErrorPressed: SwiftUI.Color
+        public let contentFeedbackSuccessDefault: SwiftUI.Color
+        public let contentFeedbackSuccessHover: SwiftUI.Color
+        public let contentFeedbackSuccessPressed: SwiftUI.Color
+        public let contentFeedbackWarningDefault: SwiftUI.Color
+        public let contentFeedbackWarningHover: SwiftUI.Color
+        public let contentFeedbackWarningPressed: SwiftUI.Color
+        public let contentInverse: SwiftUI.Color
+        public let contentOnBrandCalendarDefault: SwiftUI.Color
+        public let contentOnBrandContactsDefault: SwiftUI.Color
+        public let contentOnBrandDefault: SwiftUI.Color
+        public let contentOnBrandEuriaDefault: SwiftUI.Color
+        public let contentOnBrandInfomaniakDefault: SwiftUI.Color
+        public let contentOnBrandKchatDefault: SwiftUI.Color
+        public let contentOnBrandKdriveDefault: SwiftUI.Color
+        public let contentOnBrandKnoteDefault: SwiftUI.Color
+        public let contentOnBrandMailDefault: SwiftUI.Color
+        public let contentOnBrandSecurityDefault: SwiftUI.Color
+        public let contentOnBrandSwisstransferDefault: SwiftUI.Color
+        public let contentOnDisabled: SwiftUI.Color
+        public let contentOnFeedbackErrorDim1: SwiftUI.Color
+        public let contentOnFeedbackErrorDim2: SwiftUI.Color
+        public let contentOnFeedbackSuccessDim1: SwiftUI.Color
+        public let contentOnFeedbackSuccessDim2: SwiftUI.Color
+        public let contentOnFeedbackWarningDim1: SwiftUI.Color
+        public let contentOnFeedbackWarningDim2: SwiftUI.Color
+        public let contentPrimary: SwiftUI.Color
+        public let contentSecondary: SwiftUI.Color
+        public let contentTertiary: SwiftUI.Color
         public let shadow2xl: SwiftUI.Color
         public let shadowLg: SwiftUI.Color
         public let shadowMd: SwiftUI.Color
         public let shadowSm: SwiftUI.Color
         public let shadowXl: SwiftUI.Color
         public let shadowXs: SwiftUI.Color
-        public let textBrandCalendarDefault: SwiftUI.Color
-        public let textBrandCalendarHover: SwiftUI.Color
-        public let textBrandCalendarPressed: SwiftUI.Color
-        public let textBrandContactsDefault: SwiftUI.Color
-        public let textBrandContactsHover: SwiftUI.Color
-        public let textBrandContactsPressed: SwiftUI.Color
-        public let textBrandDefault: SwiftUI.Color
-        public let textBrandEuriaDefault: SwiftUI.Color
-        public let textBrandEuriaHover: SwiftUI.Color
-        public let textBrandEuriaPressed: SwiftUI.Color
-        public let textBrandHover: SwiftUI.Color
-        public let textBrandInfomaniakDefault: SwiftUI.Color
-        public let textBrandInfomaniakHover: SwiftUI.Color
-        public let textBrandInfomaniakPressed: SwiftUI.Color
-        public let textBrandKchatDefault: SwiftUI.Color
-        public let textBrandKchatHover: SwiftUI.Color
-        public let textBrandKchatPressed: SwiftUI.Color
-        public let textBrandKdriveDefault: SwiftUI.Color
-        public let textBrandKdriveHover: SwiftUI.Color
-        public let textBrandKdrivePressed: SwiftUI.Color
-        public let textBrandKnoteDefault: SwiftUI.Color
-        public let textBrandKnoteHover: SwiftUI.Color
-        public let textBrandKnotePressed: SwiftUI.Color
-        public let textBrandMailDefault: SwiftUI.Color
-        public let textBrandMailHover: SwiftUI.Color
-        public let textBrandMailPressed: SwiftUI.Color
-        public let textBrandPressed: SwiftUI.Color
-        public let textBrandSecurityDefault: SwiftUI.Color
-        public let textBrandSecurityHover: SwiftUI.Color
-        public let textBrandSecurityPressed: SwiftUI.Color
-        public let textBrandSwisstransferDefault: SwiftUI.Color
-        public let textBrandSwisstransferHover: SwiftUI.Color
-        public let textBrandSwisstransferPressed: SwiftUI.Color
-        public let textDisabled: SwiftUI.Color
-        public let textFeedbackErrorDefault: SwiftUI.Color
-        public let textFeedbackErrorHover: SwiftUI.Color
-        public let textFeedbackErrorPressed: SwiftUI.Color
-        public let textFeedbackSuccessDefault: SwiftUI.Color
-        public let textFeedbackSuccessHover: SwiftUI.Color
-        public let textFeedbackSuccessPressed: SwiftUI.Color
-        public let textFeedbackWarningDefault: SwiftUI.Color
-        public let textFeedbackWarningHover: SwiftUI.Color
-        public let textFeedbackWarningPressed: SwiftUI.Color
-        public let textInverse: SwiftUI.Color
-        public let textOnBrandCalendarDefault: SwiftUI.Color
-        public let textOnBrandContactsDefault: SwiftUI.Color
-        public let textOnBrandDefault: SwiftUI.Color
-        public let textOnBrandEuriaDefault: SwiftUI.Color
-        public let textOnBrandInfomaniakDefault: SwiftUI.Color
-        public let textOnBrandKchatDefault: SwiftUI.Color
-        public let textOnBrandKdriveDefault: SwiftUI.Color
-        public let textOnBrandKnoteDefault: SwiftUI.Color
-        public let textOnBrandMailDefault: SwiftUI.Color
-        public let textOnBrandSecurityDefault: SwiftUI.Color
-        public let textOnBrandSwisstransferDefault: SwiftUI.Color
-        public let textOnDisabled: SwiftUI.Color
-        public let textOnFeedbackErrorDim1: SwiftUI.Color
-        public let textOnFeedbackErrorDim2: SwiftUI.Color
-        public let textOnFeedbackSuccessDim1: SwiftUI.Color
-        public let textOnFeedbackSuccessDim2: SwiftUI.Color
-        public let textOnFeedbackWarningDim1: SwiftUI.Color
-        public let textOnFeedbackWarningDim2: SwiftUI.Color
-        public let textPrimary: SwiftUI.Color
-        public let textSecondary: SwiftUI.Color
-        public let textTertiary: SwiftUI.Color
 
         public init(
             backgroundBrandCalendarDefault: SwiftUI.Color,
@@ -422,142 +357,77 @@ public extension ESDSTheme {
             borderFeedbackWarningDim2Default: SwiftUI.Color,
             borderFeedbackWarningDim2Hover: SwiftUI.Color,
             borderFeedbackWarningDim2Pressed: SwiftUI.Color,
-            iconBrandCalendarDefault: SwiftUI.Color,
-            iconBrandCalendarHover: SwiftUI.Color,
-            iconBrandCalendarPressed: SwiftUI.Color,
-            iconBrandContactsDefault: SwiftUI.Color,
-            iconBrandContactsHover: SwiftUI.Color,
-            iconBrandContactsPressed: SwiftUI.Color,
-            iconBrandDefault: SwiftUI.Color,
-            iconBrandEuriaDefault: SwiftUI.Color,
-            iconBrandEuriaHover: SwiftUI.Color,
-            iconBrandEuriaPressed: SwiftUI.Color,
-            iconBrandHover: SwiftUI.Color,
-            iconBrandInfomaniakDefault: SwiftUI.Color,
-            iconBrandInfomaniakHover: SwiftUI.Color,
-            iconBrandInfomaniakPressed: SwiftUI.Color,
-            iconBrandKchatDefault: SwiftUI.Color,
-            iconBrandKchatHover: SwiftUI.Color,
-            iconBrandKchatPressed: SwiftUI.Color,
-            iconBrandKdriveDefault: SwiftUI.Color,
-            iconBrandKdriveHover: SwiftUI.Color,
-            iconBrandKdrivePressed: SwiftUI.Color,
-            iconBrandKnoteDefault: SwiftUI.Color,
-            iconBrandKnoteHover: SwiftUI.Color,
-            iconBrandKnotePressed: SwiftUI.Color,
-            iconBrandMailDefault: SwiftUI.Color,
-            iconBrandMailHover: SwiftUI.Color,
-            iconBrandMailPressed: SwiftUI.Color,
-            iconBrandPressed: SwiftUI.Color,
-            iconBrandSecurityDefault: SwiftUI.Color,
-            iconBrandSecurityHover: SwiftUI.Color,
-            iconBrandSecurityPressed: SwiftUI.Color,
-            iconBrandSwisstransferDefault: SwiftUI.Color,
-            iconBrandSwisstransferHover: SwiftUI.Color,
-            iconBrandSwisstransferPressed: SwiftUI.Color,
-            iconDisabled: SwiftUI.Color,
-            iconFeedbackErrorDefault: SwiftUI.Color,
-            iconFeedbackErrorHover: SwiftUI.Color,
-            iconFeedbackErrorPressed: SwiftUI.Color,
-            iconFeedbackSuccessDefault: SwiftUI.Color,
-            iconFeedbackSuccessHover: SwiftUI.Color,
-            iconFeedbackSuccessPressed: SwiftUI.Color,
-            iconFeedbackWarningDefault: SwiftUI.Color,
-            iconFeedbackWarningHover: SwiftUI.Color,
-            iconFeedbackWarningPressed: SwiftUI.Color,
-            iconInverse: SwiftUI.Color,
-            iconOnBrandCalendarDefault: SwiftUI.Color,
-            iconOnBrandContactsDefault: SwiftUI.Color,
-            iconOnBrandDefault: SwiftUI.Color,
-            iconOnBrandEuriaDefault: SwiftUI.Color,
-            iconOnBrandInfomaniakDefault: SwiftUI.Color,
-            iconOnBrandKchatDefault: SwiftUI.Color,
-            iconOnBrandKdriveDefault: SwiftUI.Color,
-            iconOnBrandKnoteDefault: SwiftUI.Color,
-            iconOnBrandMailDefault: SwiftUI.Color,
-            iconOnBrandSecurityDefault: SwiftUI.Color,
-            iconOnBrandSwisstransferDefault: SwiftUI.Color,
-            iconOnDisabled: SwiftUI.Color,
-            iconOnFeedbackErrorDim1: SwiftUI.Color,
-            iconOnFeedbackErrorDim2: SwiftUI.Color,
-            iconOnFeedbackSuccessDim1: SwiftUI.Color,
-            iconOnFeedbackSuccessDim2: SwiftUI.Color,
-            iconOnFeedbackWarningDim1: SwiftUI.Color,
-            iconOnFeedbackWarningDim2: SwiftUI.Color,
-            iconPrimary: SwiftUI.Color,
-            iconSecondary: SwiftUI.Color,
-            iconTertiary: SwiftUI.Color,
+            contentBrandCalendarDefault: SwiftUI.Color,
+            contentBrandCalendarHover: SwiftUI.Color,
+            contentBrandCalendarPressed: SwiftUI.Color,
+            contentBrandContactsDefault: SwiftUI.Color,
+            contentBrandContactsHover: SwiftUI.Color,
+            contentBrandContactsPressed: SwiftUI.Color,
+            contentBrandDefault: SwiftUI.Color,
+            contentBrandEuriaDefault: SwiftUI.Color,
+            contentBrandEuriaHover: SwiftUI.Color,
+            contentBrandEuriaPressed: SwiftUI.Color,
+            contentBrandHover: SwiftUI.Color,
+            contentBrandInfomaniakDefault: SwiftUI.Color,
+            contentBrandInfomaniakHover: SwiftUI.Color,
+            contentBrandInfomaniakPressed: SwiftUI.Color,
+            contentBrandKchatDefault: SwiftUI.Color,
+            contentBrandKchatHover: SwiftUI.Color,
+            contentBrandKchatPressed: SwiftUI.Color,
+            contentBrandKdriveDefault: SwiftUI.Color,
+            contentBrandKdriveHover: SwiftUI.Color,
+            contentBrandKdrivePressed: SwiftUI.Color,
+            contentBrandKnoteDefault: SwiftUI.Color,
+            contentBrandKnoteHover: SwiftUI.Color,
+            contentBrandKnotePressed: SwiftUI.Color,
+            contentBrandMailDefault: SwiftUI.Color,
+            contentBrandMailHover: SwiftUI.Color,
+            contentBrandMailPressed: SwiftUI.Color,
+            contentBrandPressed: SwiftUI.Color,
+            contentBrandSecurityDefault: SwiftUI.Color,
+            contentBrandSecurityHover: SwiftUI.Color,
+            contentBrandSecurityPressed: SwiftUI.Color,
+            contentBrandSwisstransferDefault: SwiftUI.Color,
+            contentBrandSwisstransferHover: SwiftUI.Color,
+            contentBrandSwisstransferPressed: SwiftUI.Color,
+            contentDisabled: SwiftUI.Color,
+            contentFeedbackErrorDefault: SwiftUI.Color,
+            contentFeedbackErrorHover: SwiftUI.Color,
+            contentFeedbackErrorPressed: SwiftUI.Color,
+            contentFeedbackSuccessDefault: SwiftUI.Color,
+            contentFeedbackSuccessHover: SwiftUI.Color,
+            contentFeedbackSuccessPressed: SwiftUI.Color,
+            contentFeedbackWarningDefault: SwiftUI.Color,
+            contentFeedbackWarningHover: SwiftUI.Color,
+            contentFeedbackWarningPressed: SwiftUI.Color,
+            contentInverse: SwiftUI.Color,
+            contentOnBrandCalendarDefault: SwiftUI.Color,
+            contentOnBrandContactsDefault: SwiftUI.Color,
+            contentOnBrandDefault: SwiftUI.Color,
+            contentOnBrandEuriaDefault: SwiftUI.Color,
+            contentOnBrandInfomaniakDefault: SwiftUI.Color,
+            contentOnBrandKchatDefault: SwiftUI.Color,
+            contentOnBrandKdriveDefault: SwiftUI.Color,
+            contentOnBrandKnoteDefault: SwiftUI.Color,
+            contentOnBrandMailDefault: SwiftUI.Color,
+            contentOnBrandSecurityDefault: SwiftUI.Color,
+            contentOnBrandSwisstransferDefault: SwiftUI.Color,
+            contentOnDisabled: SwiftUI.Color,
+            contentOnFeedbackErrorDim1: SwiftUI.Color,
+            contentOnFeedbackErrorDim2: SwiftUI.Color,
+            contentOnFeedbackSuccessDim1: SwiftUI.Color,
+            contentOnFeedbackSuccessDim2: SwiftUI.Color,
+            contentOnFeedbackWarningDim1: SwiftUI.Color,
+            contentOnFeedbackWarningDim2: SwiftUI.Color,
+            contentPrimary: SwiftUI.Color,
+            contentSecondary: SwiftUI.Color,
+            contentTertiary: SwiftUI.Color,
             shadow2xl: SwiftUI.Color,
             shadowLg: SwiftUI.Color,
             shadowMd: SwiftUI.Color,
             shadowSm: SwiftUI.Color,
             shadowXl: SwiftUI.Color,
-            shadowXs: SwiftUI.Color,
-            textBrandCalendarDefault: SwiftUI.Color,
-            textBrandCalendarHover: SwiftUI.Color,
-            textBrandCalendarPressed: SwiftUI.Color,
-            textBrandContactsDefault: SwiftUI.Color,
-            textBrandContactsHover: SwiftUI.Color,
-            textBrandContactsPressed: SwiftUI.Color,
-            textBrandDefault: SwiftUI.Color,
-            textBrandEuriaDefault: SwiftUI.Color,
-            textBrandEuriaHover: SwiftUI.Color,
-            textBrandEuriaPressed: SwiftUI.Color,
-            textBrandHover: SwiftUI.Color,
-            textBrandInfomaniakDefault: SwiftUI.Color,
-            textBrandInfomaniakHover: SwiftUI.Color,
-            textBrandInfomaniakPressed: SwiftUI.Color,
-            textBrandKchatDefault: SwiftUI.Color,
-            textBrandKchatHover: SwiftUI.Color,
-            textBrandKchatPressed: SwiftUI.Color,
-            textBrandKdriveDefault: SwiftUI.Color,
-            textBrandKdriveHover: SwiftUI.Color,
-            textBrandKdrivePressed: SwiftUI.Color,
-            textBrandKnoteDefault: SwiftUI.Color,
-            textBrandKnoteHover: SwiftUI.Color,
-            textBrandKnotePressed: SwiftUI.Color,
-            textBrandMailDefault: SwiftUI.Color,
-            textBrandMailHover: SwiftUI.Color,
-            textBrandMailPressed: SwiftUI.Color,
-            textBrandPressed: SwiftUI.Color,
-            textBrandSecurityDefault: SwiftUI.Color,
-            textBrandSecurityHover: SwiftUI.Color,
-            textBrandSecurityPressed: SwiftUI.Color,
-            textBrandSwisstransferDefault: SwiftUI.Color,
-            textBrandSwisstransferHover: SwiftUI.Color,
-            textBrandSwisstransferPressed: SwiftUI.Color,
-            textDisabled: SwiftUI.Color,
-            textFeedbackErrorDefault: SwiftUI.Color,
-            textFeedbackErrorHover: SwiftUI.Color,
-            textFeedbackErrorPressed: SwiftUI.Color,
-            textFeedbackSuccessDefault: SwiftUI.Color,
-            textFeedbackSuccessHover: SwiftUI.Color,
-            textFeedbackSuccessPressed: SwiftUI.Color,
-            textFeedbackWarningDefault: SwiftUI.Color,
-            textFeedbackWarningHover: SwiftUI.Color,
-            textFeedbackWarningPressed: SwiftUI.Color,
-            textInverse: SwiftUI.Color,
-            textOnBrandCalendarDefault: SwiftUI.Color,
-            textOnBrandContactsDefault: SwiftUI.Color,
-            textOnBrandDefault: SwiftUI.Color,
-            textOnBrandEuriaDefault: SwiftUI.Color,
-            textOnBrandInfomaniakDefault: SwiftUI.Color,
-            textOnBrandKchatDefault: SwiftUI.Color,
-            textOnBrandKdriveDefault: SwiftUI.Color,
-            textOnBrandKnoteDefault: SwiftUI.Color,
-            textOnBrandMailDefault: SwiftUI.Color,
-            textOnBrandSecurityDefault: SwiftUI.Color,
-            textOnBrandSwisstransferDefault: SwiftUI.Color,
-            textOnDisabled: SwiftUI.Color,
-            textOnFeedbackErrorDim1: SwiftUI.Color,
-            textOnFeedbackErrorDim2: SwiftUI.Color,
-            textOnFeedbackSuccessDim1: SwiftUI.Color,
-            textOnFeedbackSuccessDim2: SwiftUI.Color,
-            textOnFeedbackWarningDim1: SwiftUI.Color,
-            textOnFeedbackWarningDim2: SwiftUI.Color,
-            textPrimary: SwiftUI.Color,
-            textSecondary: SwiftUI.Color,
-            textTertiary: SwiftUI.Color
+            shadowXs: SwiftUI.Color
         ) {
             self.backgroundBrandCalendarDefault = backgroundBrandCalendarDefault
             self.backgroundBrandCalendarHover = backgroundBrandCalendarHover
@@ -690,142 +560,77 @@ public extension ESDSTheme {
             self.borderFeedbackWarningDim2Default = borderFeedbackWarningDim2Default
             self.borderFeedbackWarningDim2Hover = borderFeedbackWarningDim2Hover
             self.borderFeedbackWarningDim2Pressed = borderFeedbackWarningDim2Pressed
-            self.iconBrandCalendarDefault = iconBrandCalendarDefault
-            self.iconBrandCalendarHover = iconBrandCalendarHover
-            self.iconBrandCalendarPressed = iconBrandCalendarPressed
-            self.iconBrandContactsDefault = iconBrandContactsDefault
-            self.iconBrandContactsHover = iconBrandContactsHover
-            self.iconBrandContactsPressed = iconBrandContactsPressed
-            self.iconBrandDefault = iconBrandDefault
-            self.iconBrandEuriaDefault = iconBrandEuriaDefault
-            self.iconBrandEuriaHover = iconBrandEuriaHover
-            self.iconBrandEuriaPressed = iconBrandEuriaPressed
-            self.iconBrandHover = iconBrandHover
-            self.iconBrandInfomaniakDefault = iconBrandInfomaniakDefault
-            self.iconBrandInfomaniakHover = iconBrandInfomaniakHover
-            self.iconBrandInfomaniakPressed = iconBrandInfomaniakPressed
-            self.iconBrandKchatDefault = iconBrandKchatDefault
-            self.iconBrandKchatHover = iconBrandKchatHover
-            self.iconBrandKchatPressed = iconBrandKchatPressed
-            self.iconBrandKdriveDefault = iconBrandKdriveDefault
-            self.iconBrandKdriveHover = iconBrandKdriveHover
-            self.iconBrandKdrivePressed = iconBrandKdrivePressed
-            self.iconBrandKnoteDefault = iconBrandKnoteDefault
-            self.iconBrandKnoteHover = iconBrandKnoteHover
-            self.iconBrandKnotePressed = iconBrandKnotePressed
-            self.iconBrandMailDefault = iconBrandMailDefault
-            self.iconBrandMailHover = iconBrandMailHover
-            self.iconBrandMailPressed = iconBrandMailPressed
-            self.iconBrandPressed = iconBrandPressed
-            self.iconBrandSecurityDefault = iconBrandSecurityDefault
-            self.iconBrandSecurityHover = iconBrandSecurityHover
-            self.iconBrandSecurityPressed = iconBrandSecurityPressed
-            self.iconBrandSwisstransferDefault = iconBrandSwisstransferDefault
-            self.iconBrandSwisstransferHover = iconBrandSwisstransferHover
-            self.iconBrandSwisstransferPressed = iconBrandSwisstransferPressed
-            self.iconDisabled = iconDisabled
-            self.iconFeedbackErrorDefault = iconFeedbackErrorDefault
-            self.iconFeedbackErrorHover = iconFeedbackErrorHover
-            self.iconFeedbackErrorPressed = iconFeedbackErrorPressed
-            self.iconFeedbackSuccessDefault = iconFeedbackSuccessDefault
-            self.iconFeedbackSuccessHover = iconFeedbackSuccessHover
-            self.iconFeedbackSuccessPressed = iconFeedbackSuccessPressed
-            self.iconFeedbackWarningDefault = iconFeedbackWarningDefault
-            self.iconFeedbackWarningHover = iconFeedbackWarningHover
-            self.iconFeedbackWarningPressed = iconFeedbackWarningPressed
-            self.iconInverse = iconInverse
-            self.iconOnBrandCalendarDefault = iconOnBrandCalendarDefault
-            self.iconOnBrandContactsDefault = iconOnBrandContactsDefault
-            self.iconOnBrandDefault = iconOnBrandDefault
-            self.iconOnBrandEuriaDefault = iconOnBrandEuriaDefault
-            self.iconOnBrandInfomaniakDefault = iconOnBrandInfomaniakDefault
-            self.iconOnBrandKchatDefault = iconOnBrandKchatDefault
-            self.iconOnBrandKdriveDefault = iconOnBrandKdriveDefault
-            self.iconOnBrandKnoteDefault = iconOnBrandKnoteDefault
-            self.iconOnBrandMailDefault = iconOnBrandMailDefault
-            self.iconOnBrandSecurityDefault = iconOnBrandSecurityDefault
-            self.iconOnBrandSwisstransferDefault = iconOnBrandSwisstransferDefault
-            self.iconOnDisabled = iconOnDisabled
-            self.iconOnFeedbackErrorDim1 = iconOnFeedbackErrorDim1
-            self.iconOnFeedbackErrorDim2 = iconOnFeedbackErrorDim2
-            self.iconOnFeedbackSuccessDim1 = iconOnFeedbackSuccessDim1
-            self.iconOnFeedbackSuccessDim2 = iconOnFeedbackSuccessDim2
-            self.iconOnFeedbackWarningDim1 = iconOnFeedbackWarningDim1
-            self.iconOnFeedbackWarningDim2 = iconOnFeedbackWarningDim2
-            self.iconPrimary = iconPrimary
-            self.iconSecondary = iconSecondary
-            self.iconTertiary = iconTertiary
+            self.contentBrandCalendarDefault = contentBrandCalendarDefault
+            self.contentBrandCalendarHover = contentBrandCalendarHover
+            self.contentBrandCalendarPressed = contentBrandCalendarPressed
+            self.contentBrandContactsDefault = contentBrandContactsDefault
+            self.contentBrandContactsHover = contentBrandContactsHover
+            self.contentBrandContactsPressed = contentBrandContactsPressed
+            self.contentBrandDefault = contentBrandDefault
+            self.contentBrandEuriaDefault = contentBrandEuriaDefault
+            self.contentBrandEuriaHover = contentBrandEuriaHover
+            self.contentBrandEuriaPressed = contentBrandEuriaPressed
+            self.contentBrandHover = contentBrandHover
+            self.contentBrandInfomaniakDefault = contentBrandInfomaniakDefault
+            self.contentBrandInfomaniakHover = contentBrandInfomaniakHover
+            self.contentBrandInfomaniakPressed = contentBrandInfomaniakPressed
+            self.contentBrandKchatDefault = contentBrandKchatDefault
+            self.contentBrandKchatHover = contentBrandKchatHover
+            self.contentBrandKchatPressed = contentBrandKchatPressed
+            self.contentBrandKdriveDefault = contentBrandKdriveDefault
+            self.contentBrandKdriveHover = contentBrandKdriveHover
+            self.contentBrandKdrivePressed = contentBrandKdrivePressed
+            self.contentBrandKnoteDefault = contentBrandKnoteDefault
+            self.contentBrandKnoteHover = contentBrandKnoteHover
+            self.contentBrandKnotePressed = contentBrandKnotePressed
+            self.contentBrandMailDefault = contentBrandMailDefault
+            self.contentBrandMailHover = contentBrandMailHover
+            self.contentBrandMailPressed = contentBrandMailPressed
+            self.contentBrandPressed = contentBrandPressed
+            self.contentBrandSecurityDefault = contentBrandSecurityDefault
+            self.contentBrandSecurityHover = contentBrandSecurityHover
+            self.contentBrandSecurityPressed = contentBrandSecurityPressed
+            self.contentBrandSwisstransferDefault = contentBrandSwisstransferDefault
+            self.contentBrandSwisstransferHover = contentBrandSwisstransferHover
+            self.contentBrandSwisstransferPressed = contentBrandSwisstransferPressed
+            self.contentDisabled = contentDisabled
+            self.contentFeedbackErrorDefault = contentFeedbackErrorDefault
+            self.contentFeedbackErrorHover = contentFeedbackErrorHover
+            self.contentFeedbackErrorPressed = contentFeedbackErrorPressed
+            self.contentFeedbackSuccessDefault = contentFeedbackSuccessDefault
+            self.contentFeedbackSuccessHover = contentFeedbackSuccessHover
+            self.contentFeedbackSuccessPressed = contentFeedbackSuccessPressed
+            self.contentFeedbackWarningDefault = contentFeedbackWarningDefault
+            self.contentFeedbackWarningHover = contentFeedbackWarningHover
+            self.contentFeedbackWarningPressed = contentFeedbackWarningPressed
+            self.contentInverse = contentInverse
+            self.contentOnBrandCalendarDefault = contentOnBrandCalendarDefault
+            self.contentOnBrandContactsDefault = contentOnBrandContactsDefault
+            self.contentOnBrandDefault = contentOnBrandDefault
+            self.contentOnBrandEuriaDefault = contentOnBrandEuriaDefault
+            self.contentOnBrandInfomaniakDefault = contentOnBrandInfomaniakDefault
+            self.contentOnBrandKchatDefault = contentOnBrandKchatDefault
+            self.contentOnBrandKdriveDefault = contentOnBrandKdriveDefault
+            self.contentOnBrandKnoteDefault = contentOnBrandKnoteDefault
+            self.contentOnBrandMailDefault = contentOnBrandMailDefault
+            self.contentOnBrandSecurityDefault = contentOnBrandSecurityDefault
+            self.contentOnBrandSwisstransferDefault = contentOnBrandSwisstransferDefault
+            self.contentOnDisabled = contentOnDisabled
+            self.contentOnFeedbackErrorDim1 = contentOnFeedbackErrorDim1
+            self.contentOnFeedbackErrorDim2 = contentOnFeedbackErrorDim2
+            self.contentOnFeedbackSuccessDim1 = contentOnFeedbackSuccessDim1
+            self.contentOnFeedbackSuccessDim2 = contentOnFeedbackSuccessDim2
+            self.contentOnFeedbackWarningDim1 = contentOnFeedbackWarningDim1
+            self.contentOnFeedbackWarningDim2 = contentOnFeedbackWarningDim2
+            self.contentPrimary = contentPrimary
+            self.contentSecondary = contentSecondary
+            self.contentTertiary = contentTertiary
             self.shadow2xl = shadow2xl
             self.shadowLg = shadowLg
             self.shadowMd = shadowMd
             self.shadowSm = shadowSm
             self.shadowXl = shadowXl
             self.shadowXs = shadowXs
-            self.textBrandCalendarDefault = textBrandCalendarDefault
-            self.textBrandCalendarHover = textBrandCalendarHover
-            self.textBrandCalendarPressed = textBrandCalendarPressed
-            self.textBrandContactsDefault = textBrandContactsDefault
-            self.textBrandContactsHover = textBrandContactsHover
-            self.textBrandContactsPressed = textBrandContactsPressed
-            self.textBrandDefault = textBrandDefault
-            self.textBrandEuriaDefault = textBrandEuriaDefault
-            self.textBrandEuriaHover = textBrandEuriaHover
-            self.textBrandEuriaPressed = textBrandEuriaPressed
-            self.textBrandHover = textBrandHover
-            self.textBrandInfomaniakDefault = textBrandInfomaniakDefault
-            self.textBrandInfomaniakHover = textBrandInfomaniakHover
-            self.textBrandInfomaniakPressed = textBrandInfomaniakPressed
-            self.textBrandKchatDefault = textBrandKchatDefault
-            self.textBrandKchatHover = textBrandKchatHover
-            self.textBrandKchatPressed = textBrandKchatPressed
-            self.textBrandKdriveDefault = textBrandKdriveDefault
-            self.textBrandKdriveHover = textBrandKdriveHover
-            self.textBrandKdrivePressed = textBrandKdrivePressed
-            self.textBrandKnoteDefault = textBrandKnoteDefault
-            self.textBrandKnoteHover = textBrandKnoteHover
-            self.textBrandKnotePressed = textBrandKnotePressed
-            self.textBrandMailDefault = textBrandMailDefault
-            self.textBrandMailHover = textBrandMailHover
-            self.textBrandMailPressed = textBrandMailPressed
-            self.textBrandPressed = textBrandPressed
-            self.textBrandSecurityDefault = textBrandSecurityDefault
-            self.textBrandSecurityHover = textBrandSecurityHover
-            self.textBrandSecurityPressed = textBrandSecurityPressed
-            self.textBrandSwisstransferDefault = textBrandSwisstransferDefault
-            self.textBrandSwisstransferHover = textBrandSwisstransferHover
-            self.textBrandSwisstransferPressed = textBrandSwisstransferPressed
-            self.textDisabled = textDisabled
-            self.textFeedbackErrorDefault = textFeedbackErrorDefault
-            self.textFeedbackErrorHover = textFeedbackErrorHover
-            self.textFeedbackErrorPressed = textFeedbackErrorPressed
-            self.textFeedbackSuccessDefault = textFeedbackSuccessDefault
-            self.textFeedbackSuccessHover = textFeedbackSuccessHover
-            self.textFeedbackSuccessPressed = textFeedbackSuccessPressed
-            self.textFeedbackWarningDefault = textFeedbackWarningDefault
-            self.textFeedbackWarningHover = textFeedbackWarningHover
-            self.textFeedbackWarningPressed = textFeedbackWarningPressed
-            self.textInverse = textInverse
-            self.textOnBrandCalendarDefault = textOnBrandCalendarDefault
-            self.textOnBrandContactsDefault = textOnBrandContactsDefault
-            self.textOnBrandDefault = textOnBrandDefault
-            self.textOnBrandEuriaDefault = textOnBrandEuriaDefault
-            self.textOnBrandInfomaniakDefault = textOnBrandInfomaniakDefault
-            self.textOnBrandKchatDefault = textOnBrandKchatDefault
-            self.textOnBrandKdriveDefault = textOnBrandKdriveDefault
-            self.textOnBrandKnoteDefault = textOnBrandKnoteDefault
-            self.textOnBrandMailDefault = textOnBrandMailDefault
-            self.textOnBrandSecurityDefault = textOnBrandSecurityDefault
-            self.textOnBrandSwisstransferDefault = textOnBrandSwisstransferDefault
-            self.textOnDisabled = textOnDisabled
-            self.textOnFeedbackErrorDim1 = textOnFeedbackErrorDim1
-            self.textOnFeedbackErrorDim2 = textOnFeedbackErrorDim2
-            self.textOnFeedbackSuccessDim1 = textOnFeedbackSuccessDim1
-            self.textOnFeedbackSuccessDim2 = textOnFeedbackSuccessDim2
-            self.textOnFeedbackWarningDim1 = textOnFeedbackWarningDim1
-            self.textOnFeedbackWarningDim2 = textOnFeedbackWarningDim2
-            self.textPrimary = textPrimary
-            self.textSecondary = textSecondary
-            self.textTertiary = textTertiary
         }
     }
 }
