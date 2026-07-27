@@ -18,9 +18,9 @@
  Do not edit directly, this file was auto-generated.
  */
 
+import Foundation
 import ESDSFoundation
 import ESDSPrimitives
-import Foundation
 
 extension ESDSTheme.Spacing {
     static let knote = ESDSTheme.Spacing(
