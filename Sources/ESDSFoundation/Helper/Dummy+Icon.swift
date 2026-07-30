@@ -18,8 +18,8 @@
  Do not edit directly, this file was auto-generated.
  */
 
-import ESDSPrimitives
 import Foundation
+import ESDSPrimitives
 
 extension ESDSTheme.Icon {
     static let dummy = ESDSTheme.Icon(
