@@ -73,6 +73,12 @@ public extension ESDSTheme {
         public let backgroundDatavizEmeraldDim2Default: SwiftUI.Color
         public let backgroundDatavizEmeraldDim2Hover: SwiftUI.Color
         public let backgroundDatavizEmeraldDim2Pressed: SwiftUI.Color
+        public let backgroundDatavizGrayDim1Default: SwiftUI.Color
+        public let backgroundDatavizGrayDim1Hover: SwiftUI.Color
+        public let backgroundDatavizGrayDim1Pressed: SwiftUI.Color
+        public let backgroundDatavizGrayDim2Default: SwiftUI.Color
+        public let backgroundDatavizGrayDim2Hover: SwiftUI.Color
+        public let backgroundDatavizGrayDim2Pressed: SwiftUI.Color
         public let backgroundDatavizOrangeDim1Default: SwiftUI.Color
         public let backgroundDatavizOrangeDim1Hover: SwiftUI.Color
         public let backgroundDatavizOrangeDim1Pressed: SwiftUI.Color
@@ -189,6 +195,12 @@ public extension ESDSTheme {
         public let borderDatavizEmeraldDim2Default: SwiftUI.Color
         public let borderDatavizEmeraldDim2Hover: SwiftUI.Color
         public let borderDatavizEmeraldDim2Pressed: SwiftUI.Color
+        public let borderDatavizGrayDim1Default: SwiftUI.Color
+        public let borderDatavizGrayDim1Hover: SwiftUI.Color
+        public let borderDatavizGrayDim1Pressed: SwiftUI.Color
+        public let borderDatavizGrayDim2Default: SwiftUI.Color
+        public let borderDatavizGrayDim2Hover: SwiftUI.Color
+        public let borderDatavizGrayDim2Pressed: SwiftUI.Color
         public let borderDatavizOrangeDim1Default: SwiftUI.Color
         public let borderDatavizOrangeDim1Hover: SwiftUI.Color
         public let borderDatavizOrangeDim1Pressed: SwiftUI.Color
@@ -304,32 +316,37 @@ public extension ESDSTheme {
         public let contentOnBrandMailDefault: SwiftUI.Color
         public let contentOnBrandSecurityDefault: SwiftUI.Color
         public let contentOnBrandSwisstransferDefault: SwiftUI.Color
-        public let contentOnDatavizBlueDim1: SwiftUI.Color
-        public let contentOnDatavizBlueDim2: SwiftUI.Color
-        public let contentOnDatavizDim1: SwiftUI.Color
-        public let contentOnDatavizDim2: SwiftUI.Color
-        public let contentOnDatavizEmeraldDim1: SwiftUI.Color
-        public let contentOnDatavizEmeraldDim2: SwiftUI.Color
-        public let contentOnDatavizOrangeDim1: SwiftUI.Color
-        public let contentOnDatavizOrangeDim2: SwiftUI.Color
-        public let contentOnDatavizPinkDim1: SwiftUI.Color
-        public let contentOnDatavizPinkDim2: SwiftUI.Color
-        public let contentOnDatavizPurpleDim1: SwiftUI.Color
-        public let contentOnDatavizPurpleDim2: SwiftUI.Color
-        public let contentOnDatavizVioletDim1: SwiftUI.Color
-        public let contentOnDatavizVioletDim2: SwiftUI.Color
-        public let contentOnDatavizYellowDim1: SwiftUI.Color
-        public let contentOnDatavizYellowDim2: SwiftUI.Color
+        public let contentOnDatavizBlueDim1Default: SwiftUI.Color
+        public let contentOnDatavizBlueDim2Default: SwiftUI.Color
+        public let contentOnDatavizDim1Default: SwiftUI.Color
+        public let contentOnDatavizDim2Default: SwiftUI.Color
+        public let contentOnDatavizEmeraldDim1Default: SwiftUI.Color
+        public let contentOnDatavizEmeraldDim2Default: SwiftUI.Color
+        public let contentOnDatavizGrayDim1Default: SwiftUI.Color
+        public let contentOnDatavizGrayDim2Default: SwiftUI.Color
+        public let contentOnDatavizOrangeDim1Default: SwiftUI.Color
+        public let contentOnDatavizOrangeDim2Default: SwiftUI.Color
+        public let contentOnDatavizPinkDim1Default: SwiftUI.Color
+        public let contentOnDatavizPinkDim2Default: SwiftUI.Color
+        public let contentOnDatavizPurpleDim1Default: SwiftUI.Color
+        public let contentOnDatavizPurpleDim2Default: SwiftUI.Color
+        public let contentOnDatavizVioletDim1Default: SwiftUI.Color
+        public let contentOnDatavizVioletDim2Default: SwiftUI.Color
+        public let contentOnDatavizYellowDim1Default: SwiftUI.Color
+        public let contentOnDatavizYellowDim2Default: SwiftUI.Color
         public let contentOnDisabled: SwiftUI.Color
-        public let contentOnFeedbackErrorDim1: SwiftUI.Color
-        public let contentOnFeedbackErrorDim2: SwiftUI.Color
-        public let contentOnFeedbackSuccessDim1: SwiftUI.Color
-        public let contentOnFeedbackSuccessDim2: SwiftUI.Color
-        public let contentOnFeedbackWarningDim1: SwiftUI.Color
-        public let contentOnFeedbackWarningDim2: SwiftUI.Color
+        public let contentOnFeedbackErrorDim1Default: SwiftUI.Color
+        public let contentOnFeedbackErrorDim2Default: SwiftUI.Color
+        public let contentOnFeedbackSuccessDim1Default: SwiftUI.Color
+        public let contentOnFeedbackSuccessDim2Default: SwiftUI.Color
+        public let contentOnFeedbackWarningDim1Default: SwiftUI.Color
+        public let contentOnFeedbackWarningDim2Default: SwiftUI.Color
         public let contentPrimary: SwiftUI.Color
         public let contentSecondary: SwiftUI.Color
         public let contentTertiary: SwiftUI.Color
+        public let contentVisitedDefault: SwiftUI.Color
+        public let contentVisitedHover: SwiftUI.Color
+        public let contentVisitedPressed: SwiftUI.Color
         public let shadow2xl: SwiftUI.Color
         public let shadowLg: SwiftUI.Color
         public let shadowMd: SwiftUI.Color
@@ -389,6 +406,12 @@ public extension ESDSTheme {
             backgroundDatavizEmeraldDim2Default: SwiftUI.Color,
             backgroundDatavizEmeraldDim2Hover: SwiftUI.Color,
             backgroundDatavizEmeraldDim2Pressed: SwiftUI.Color,
+            backgroundDatavizGrayDim1Default: SwiftUI.Color,
+            backgroundDatavizGrayDim1Hover: SwiftUI.Color,
+            backgroundDatavizGrayDim1Pressed: SwiftUI.Color,
+            backgroundDatavizGrayDim2Default: SwiftUI.Color,
+            backgroundDatavizGrayDim2Hover: SwiftUI.Color,
+            backgroundDatavizGrayDim2Pressed: SwiftUI.Color,
             backgroundDatavizOrangeDim1Default: SwiftUI.Color,
             backgroundDatavizOrangeDim1Hover: SwiftUI.Color,
             backgroundDatavizOrangeDim1Pressed: SwiftUI.Color,
@@ -505,6 +528,12 @@ public extension ESDSTheme {
             borderDatavizEmeraldDim2Default: SwiftUI.Color,
             borderDatavizEmeraldDim2Hover: SwiftUI.Color,
             borderDatavizEmeraldDim2Pressed: SwiftUI.Color,
+            borderDatavizGrayDim1Default: SwiftUI.Color,
+            borderDatavizGrayDim1Hover: SwiftUI.Color,
+            borderDatavizGrayDim1Pressed: SwiftUI.Color,
+            borderDatavizGrayDim2Default: SwiftUI.Color,
+            borderDatavizGrayDim2Hover: SwiftUI.Color,
+            borderDatavizGrayDim2Pressed: SwiftUI.Color,
             borderDatavizOrangeDim1Default: SwiftUI.Color,
             borderDatavizOrangeDim1Hover: SwiftUI.Color,
             borderDatavizOrangeDim1Pressed: SwiftUI.Color,
@@ -620,32 +649,37 @@ public extension ESDSTheme {
             contentOnBrandMailDefault: SwiftUI.Color,
             contentOnBrandSecurityDefault: SwiftUI.Color,
             contentOnBrandSwisstransferDefault: SwiftUI.Color,
-            contentOnDatavizBlueDim1: SwiftUI.Color,
-            contentOnDatavizBlueDim2: SwiftUI.Color,
-            contentOnDatavizDim1: SwiftUI.Color,
-            contentOnDatavizDim2: SwiftUI.Color,
-            contentOnDatavizEmeraldDim1: SwiftUI.Color,
-            contentOnDatavizEmeraldDim2: SwiftUI.Color,
-            contentOnDatavizOrangeDim1: SwiftUI.Color,
-            contentOnDatavizOrangeDim2: SwiftUI.Color,
-            contentOnDatavizPinkDim1: SwiftUI.Color,
-            contentOnDatavizPinkDim2: SwiftUI.Color,
-            contentOnDatavizPurpleDim1: SwiftUI.Color,
-            contentOnDatavizPurpleDim2: SwiftUI.Color,
-            contentOnDatavizVioletDim1: SwiftUI.Color,
-            contentOnDatavizVioletDim2: SwiftUI.Color,
-            contentOnDatavizYellowDim1: SwiftUI.Color,
-            contentOnDatavizYellowDim2: SwiftUI.Color,
+            contentOnDatavizBlueDim1Default: SwiftUI.Color,
+            contentOnDatavizBlueDim2Default: SwiftUI.Color,
+            contentOnDatavizDim1Default: SwiftUI.Color,
+            contentOnDatavizDim2Default: SwiftUI.Color,
+            contentOnDatavizEmeraldDim1Default: SwiftUI.Color,
+            contentOnDatavizEmeraldDim2Default: SwiftUI.Color,
+            contentOnDatavizGrayDim1Default: SwiftUI.Color,
+            contentOnDatavizGrayDim2Default: SwiftUI.Color,
+            contentOnDatavizOrangeDim1Default: SwiftUI.Color,
+            contentOnDatavizOrangeDim2Default: SwiftUI.Color,
+            contentOnDatavizPinkDim1Default: SwiftUI.Color,
+            contentOnDatavizPinkDim2Default: SwiftUI.Color,
+            contentOnDatavizPurpleDim1Default: SwiftUI.Color,
+            contentOnDatavizPurpleDim2Default: SwiftUI.Color,
+            contentOnDatavizVioletDim1Default: SwiftUI.Color,
+            contentOnDatavizVioletDim2Default: SwiftUI.Color,
+            contentOnDatavizYellowDim1Default: SwiftUI.Color,
+            contentOnDatavizYellowDim2Default: SwiftUI.Color,
             contentOnDisabled: SwiftUI.Color,
-            contentOnFeedbackErrorDim1: SwiftUI.Color,
-            contentOnFeedbackErrorDim2: SwiftUI.Color,
-            contentOnFeedbackSuccessDim1: SwiftUI.Color,
-            contentOnFeedbackSuccessDim2: SwiftUI.Color,
-            contentOnFeedbackWarningDim1: SwiftUI.Color,
-            contentOnFeedbackWarningDim2: SwiftUI.Color,
+            contentOnFeedbackErrorDim1Default: SwiftUI.Color,
+            contentOnFeedbackErrorDim2Default: SwiftUI.Color,
+            contentOnFeedbackSuccessDim1Default: SwiftUI.Color,
+            contentOnFeedbackSuccessDim2Default: SwiftUI.Color,
+            contentOnFeedbackWarningDim1Default: SwiftUI.Color,
+            contentOnFeedbackWarningDim2Default: SwiftUI.Color,
             contentPrimary: SwiftUI.Color,
             contentSecondary: SwiftUI.Color,
             contentTertiary: SwiftUI.Color,
+            contentVisitedDefault: SwiftUI.Color,
+            contentVisitedHover: SwiftUI.Color,
+            contentVisitedPressed: SwiftUI.Color,
             shadow2xl: SwiftUI.Color,
             shadowLg: SwiftUI.Color,
             shadowMd: SwiftUI.Color,
@@ -704,6 +738,12 @@ public extension ESDSTheme {
             self.backgroundDatavizEmeraldDim2Default = backgroundDatavizEmeraldDim2Default
             self.backgroundDatavizEmeraldDim2Hover = backgroundDatavizEmeraldDim2Hover
             self.backgroundDatavizEmeraldDim2Pressed = backgroundDatavizEmeraldDim2Pressed
+            self.backgroundDatavizGrayDim1Default = backgroundDatavizGrayDim1Default
+            self.backgroundDatavizGrayDim1Hover = backgroundDatavizGrayDim1Hover
+            self.backgroundDatavizGrayDim1Pressed = backgroundDatavizGrayDim1Pressed
+            self.backgroundDatavizGrayDim2Default = backgroundDatavizGrayDim2Default
+            self.backgroundDatavizGrayDim2Hover = backgroundDatavizGrayDim2Hover
+            self.backgroundDatavizGrayDim2Pressed = backgroundDatavizGrayDim2Pressed
             self.backgroundDatavizOrangeDim1Default = backgroundDatavizOrangeDim1Default
             self.backgroundDatavizOrangeDim1Hover = backgroundDatavizOrangeDim1Hover
             self.backgroundDatavizOrangeDim1Pressed = backgroundDatavizOrangeDim1Pressed
@@ -820,6 +860,12 @@ public extension ESDSTheme {
             self.borderDatavizEmeraldDim2Default = borderDatavizEmeraldDim2Default
             self.borderDatavizEmeraldDim2Hover = borderDatavizEmeraldDim2Hover
             self.borderDatavizEmeraldDim2Pressed = borderDatavizEmeraldDim2Pressed
+            self.borderDatavizGrayDim1Default = borderDatavizGrayDim1Default
+            self.borderDatavizGrayDim1Hover = borderDatavizGrayDim1Hover
+            self.borderDatavizGrayDim1Pressed = borderDatavizGrayDim1Pressed
+            self.borderDatavizGrayDim2Default = borderDatavizGrayDim2Default
+            self.borderDatavizGrayDim2Hover = borderDatavizGrayDim2Hover
+            self.borderDatavizGrayDim2Pressed = borderDatavizGrayDim2Pressed
             self.borderDatavizOrangeDim1Default = borderDatavizOrangeDim1Default
             self.borderDatavizOrangeDim1Hover = borderDatavizOrangeDim1Hover
             self.borderDatavizOrangeDim1Pressed = borderDatavizOrangeDim1Pressed
@@ -935,32 +981,37 @@ public extension ESDSTheme {
             self.contentOnBrandMailDefault = contentOnBrandMailDefault
             self.contentOnBrandSecurityDefault = contentOnBrandSecurityDefault
             self.contentOnBrandSwisstransferDefault = contentOnBrandSwisstransferDefault
-            self.contentOnDatavizBlueDim1 = contentOnDatavizBlueDim1
-            self.contentOnDatavizBlueDim2 = contentOnDatavizBlueDim2
-            self.contentOnDatavizDim1 = contentOnDatavizDim1
-            self.contentOnDatavizDim2 = contentOnDatavizDim2
-            self.contentOnDatavizEmeraldDim1 = contentOnDatavizEmeraldDim1
-            self.contentOnDatavizEmeraldDim2 = contentOnDatavizEmeraldDim2
-            self.contentOnDatavizOrangeDim1 = contentOnDatavizOrangeDim1
-            self.contentOnDatavizOrangeDim2 = contentOnDatavizOrangeDim2
-            self.contentOnDatavizPinkDim1 = contentOnDatavizPinkDim1
-            self.contentOnDatavizPinkDim2 = contentOnDatavizPinkDim2
-            self.contentOnDatavizPurpleDim1 = contentOnDatavizPurpleDim1
-            self.contentOnDatavizPurpleDim2 = contentOnDatavizPurpleDim2
-            self.contentOnDatavizVioletDim1 = contentOnDatavizVioletDim1
-            self.contentOnDatavizVioletDim2 = contentOnDatavizVioletDim2
-            self.contentOnDatavizYellowDim1 = contentOnDatavizYellowDim1
-            self.contentOnDatavizYellowDim2 = contentOnDatavizYellowDim2
+            self.contentOnDatavizBlueDim1Default = contentOnDatavizBlueDim1Default
+            self.contentOnDatavizBlueDim2Default = contentOnDatavizBlueDim2Default
+            self.contentOnDatavizDim1Default = contentOnDatavizDim1Default
+            self.contentOnDatavizDim2Default = contentOnDatavizDim2Default
+            self.contentOnDatavizEmeraldDim1Default = contentOnDatavizEmeraldDim1Default
+            self.contentOnDatavizEmeraldDim2Default = contentOnDatavizEmeraldDim2Default
+            self.contentOnDatavizGrayDim1Default = contentOnDatavizGrayDim1Default
+            self.contentOnDatavizGrayDim2Default = contentOnDatavizGrayDim2Default
+            self.contentOnDatavizOrangeDim1Default = contentOnDatavizOrangeDim1Default
+            self.contentOnDatavizOrangeDim2Default = contentOnDatavizOrangeDim2Default
+            self.contentOnDatavizPinkDim1Default = contentOnDatavizPinkDim1Default
+            self.contentOnDatavizPinkDim2Default = contentOnDatavizPinkDim2Default
+            self.contentOnDatavizPurpleDim1Default = contentOnDatavizPurpleDim1Default
+            self.contentOnDatavizPurpleDim2Default = contentOnDatavizPurpleDim2Default
+            self.contentOnDatavizVioletDim1Default = contentOnDatavizVioletDim1Default
+            self.contentOnDatavizVioletDim2Default = contentOnDatavizVioletDim2Default
+            self.contentOnDatavizYellowDim1Default = contentOnDatavizYellowDim1Default
+            self.contentOnDatavizYellowDim2Default = contentOnDatavizYellowDim2Default
             self.contentOnDisabled = contentOnDisabled
-            self.contentOnFeedbackErrorDim1 = contentOnFeedbackErrorDim1
-            self.contentOnFeedbackErrorDim2 = contentOnFeedbackErrorDim2
-            self.contentOnFeedbackSuccessDim1 = contentOnFeedbackSuccessDim1
-            self.contentOnFeedbackSuccessDim2 = contentOnFeedbackSuccessDim2
-            self.contentOnFeedbackWarningDim1 = contentOnFeedbackWarningDim1
-            self.contentOnFeedbackWarningDim2 = contentOnFeedbackWarningDim2
+            self.contentOnFeedbackErrorDim1Default = contentOnFeedbackErrorDim1Default
+            self.contentOnFeedbackErrorDim2Default = contentOnFeedbackErrorDim2Default
+            self.contentOnFeedbackSuccessDim1Default = contentOnFeedbackSuccessDim1Default
+            self.contentOnFeedbackSuccessDim2Default = contentOnFeedbackSuccessDim2Default
+            self.contentOnFeedbackWarningDim1Default = contentOnFeedbackWarningDim1Default
+            self.contentOnFeedbackWarningDim2Default = contentOnFeedbackWarningDim2Default
             self.contentPrimary = contentPrimary
             self.contentSecondary = contentSecondary
             self.contentTertiary = contentTertiary
+            self.contentVisitedDefault = contentVisitedDefault
+            self.contentVisitedHover = contentVisitedHover
+            self.contentVisitedPressed = contentVisitedPressed
             self.shadow2xl = shadow2xl
             self.shadowLg = shadowLg
             self.shadowMd = shadowMd
