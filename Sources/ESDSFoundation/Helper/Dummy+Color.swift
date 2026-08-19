@@ -244,7 +244,7 @@ extension ESDSTheme.Color {
             light: PrimitiveToken.Color.gray100,
             dark: PrimitiveToken.Color.gray900
         ),
-        backgroundFeedbackErrorDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.red400, dark: PrimitiveToken.Color.red400),
+        backgroundFeedbackErrorDim1Default: SwiftUI.Color(light: PrimitiveToken.Color.red400, dark: PrimitiveToken.Color.red200),
         backgroundFeedbackErrorDim1Hover: SwiftUI.Color(light: PrimitiveToken.Color.red500, dark: PrimitiveToken.Color.red300),
         backgroundFeedbackErrorDim1Pressed: SwiftUI.Color(light: PrimitiveToken.Color.red600, dark: PrimitiveToken.Color.red500),
         backgroundFeedbackErrorDim2Default: SwiftUI.Color(light: PrimitiveToken.Color.red200, dark: PrimitiveToken.Color.red900),
