@@ -18,8 +18,8 @@
  Do not edit directly, this file was auto-generated.
  */
 
-import ESDSPrimitives
 import SwiftUI
+import ESDSPrimitives
 
 extension ESDSTheme.Radius {
     static let dummy = ESDSTheme.Radius(
