@@ -18,8 +18,8 @@
  Do not edit directly, this file was auto-generated.
  */
 
-import ESDSPrimitives
 import Foundation
+import ESDSPrimitives
 
 extension ESDSTheme.Spacing {
     static let dummy = ESDSTheme.Spacing(
