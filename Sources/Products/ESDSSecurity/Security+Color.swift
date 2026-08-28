@@ -18,9 +18,9 @@
  Do not edit directly, this file was auto-generated.
  */
 
-import SwiftUI
 import ESDSFoundation
 import ESDSPrimitives
+import SwiftUI
 
 extension ESDSTheme.Color {
     static let security = ESDSTheme.Color(
@@ -34,13 +34,22 @@ extension ESDSTheme.Color {
         backgroundBrandKnote: SwiftUI.Color(light: PrimitiveToken.Color.coral600, dark: PrimitiveToken.Color.coral300),
         backgroundBrandMail: SwiftUI.Color(light: PrimitiveToken.Color.pink600, dark: PrimitiveToken.Color.pink300),
         backgroundBrandSecurity: SwiftUI.Color(light: PrimitiveToken.Color.purple600, dark: PrimitiveToken.Color.purple300),
-        backgroundBrandSwisstransfer: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald300),
+        backgroundBrandSwisstransfer: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald300
+        ),
         backgroundDatavizBlueDim1: SwiftUI.Color(light: PrimitiveToken.Color.blue600, dark: PrimitiveToken.Color.blue400),
         backgroundDatavizBlueDim2: SwiftUI.Color(light: PrimitiveToken.Color.blue200, dark: PrimitiveToken.Color.blue800),
         backgroundDatavizDim1: SwiftUI.Color(light: PrimitiveToken.Color.blue600, dark: PrimitiveToken.Color.blue600),
         backgroundDatavizDim2: SwiftUI.Color(light: PrimitiveToken.Color.blue200, dark: PrimitiveToken.Color.blue200),
-        backgroundDatavizEmeraldDim1: SwiftUI.Color(light: PrimitiveToken.Color.emerald600, dark: PrimitiveToken.Color.emerald400),
-        backgroundDatavizEmeraldDim2: SwiftUI.Color(light: PrimitiveToken.Color.emerald200, dark: PrimitiveToken.Color.emerald800),
+        backgroundDatavizEmeraldDim1: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald600,
+            dark: PrimitiveToken.Color.emerald400
+        ),
+        backgroundDatavizEmeraldDim2: SwiftUI.Color(
+            light: PrimitiveToken.Color.emerald200,
+            dark: PrimitiveToken.Color.emerald800
+        ),
         backgroundDatavizGrayDim1: SwiftUI.Color(light: PrimitiveToken.Color.gray500, dark: PrimitiveToken.Color.gray400),
         backgroundDatavizGrayDim2: SwiftUI.Color(light: PrimitiveToken.Color.gray200, dark: PrimitiveToken.Color.gray800),
         backgroundDatavizOrangeDim1: SwiftUI.Color(light: PrimitiveToken.Color.orange600, dark: PrimitiveToken.Color.orange400),
