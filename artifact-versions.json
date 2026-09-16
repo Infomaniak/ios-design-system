@@ -3,5 +3,9 @@
   "symbols": {
     "version": "0.0.28-dev.1789566129696",
     "sourceCommit": "0c76800b6ed2c2236e3d1eff5481010fec319d5b"
+  },
+  "tokens-core": {
+    "version": "0.6.0-dev.1789566129696",
+    "sourceCommit": "0c76800b6ed2c2236e3d1eff5481010fec319d5b"
   }
 }
