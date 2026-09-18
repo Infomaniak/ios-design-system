@@ -35,22 +35,31 @@ public extension ESDSTheme {
         public let backgroundBrandSwisstransfer: SwiftUI.Color
         public let backgroundDatavizBlueDim1: SwiftUI.Color
         public let backgroundDatavizBlueDim2: SwiftUI.Color
+        public let backgroundDatavizBlueDim3: SwiftUI.Color
         public let backgroundDatavizDim1: SwiftUI.Color
         public let backgroundDatavizDim2: SwiftUI.Color
+        public let backgroundDatavizDim3: SwiftUI.Color
         public let backgroundDatavizEmeraldDim1: SwiftUI.Color
         public let backgroundDatavizEmeraldDim2: SwiftUI.Color
+        public let backgroundDatavizEmeraldDim3: SwiftUI.Color
         public let backgroundDatavizGrayDim1: SwiftUI.Color
         public let backgroundDatavizGrayDim2: SwiftUI.Color
+        public let backgroundDatavizGrayDim3: SwiftUI.Color
         public let backgroundDatavizOrangeDim1: SwiftUI.Color
         public let backgroundDatavizOrangeDim2: SwiftUI.Color
+        public let backgroundDatavizOrangeDim3: SwiftUI.Color
         public let backgroundDatavizPinkDim1: SwiftUI.Color
         public let backgroundDatavizPinkDim2: SwiftUI.Color
+        public let backgroundDatavizPinkDim3: SwiftUI.Color
         public let backgroundDatavizPurpleDim1: SwiftUI.Color
         public let backgroundDatavizPurpleDim2: SwiftUI.Color
+        public let backgroundDatavizPurpleDim3: SwiftUI.Color
         public let backgroundDatavizVioletDim1: SwiftUI.Color
         public let backgroundDatavizVioletDim2: SwiftUI.Color
+        public let backgroundDatavizVioletDim3: SwiftUI.Color
         public let backgroundDatavizYellowDim1: SwiftUI.Color
         public let backgroundDatavizYellowDim2: SwiftUI.Color
+        public let backgroundDatavizYellowDim3: SwiftUI.Color
         public let backgroundDisabled: SwiftUI.Color
         public let backgroundElevationOverlay: SwiftUI.Color
         public let backgroundElevationRaised: SwiftUI.Color
@@ -125,6 +134,15 @@ public extension ESDSTheme {
         public let contentBrandMail: SwiftUI.Color
         public let contentBrandSecurity: SwiftUI.Color
         public let contentBrandSwisstransfer: SwiftUI.Color
+        public let contentDataviz: SwiftUI.Color
+        public let contentDatavizBlue: SwiftUI.Color
+        public let contentDatavizEmerald: SwiftUI.Color
+        public let contentDatavizGray: SwiftUI.Color
+        public let contentDatavizOrange: SwiftUI.Color
+        public let contentDatavizPink: SwiftUI.Color
+        public let contentDatavizPurple: SwiftUI.Color
+        public let contentDatavizViolet: SwiftUI.Color
+        public let contentDatavizYellow: SwiftUI.Color
         public let contentDisabled: SwiftUI.Color
         public let contentFeedbackError: SwiftUI.Color
         public let contentFeedbackInformation: SwiftUI.Color
@@ -146,33 +164,47 @@ public extension ESDSTheme {
         public let contentOnBrandSwisstransfer: SwiftUI.Color
         public let contentOnDatavizBlueDim1: SwiftUI.Color
         public let contentOnDatavizBlueDim2: SwiftUI.Color
+        public let contentOnDatavizBlueDim3: SwiftUI.Color
         public let contentOnDatavizDim1: SwiftUI.Color
         public let contentOnDatavizDim2: SwiftUI.Color
+        public let contentOnDatavizDim3: SwiftUI.Color
         public let contentOnDatavizEmeraldDim1: SwiftUI.Color
         public let contentOnDatavizEmeraldDim2: SwiftUI.Color
+        public let contentOnDatavizEmeraldDim3: SwiftUI.Color
         public let contentOnDatavizGrayDim1: SwiftUI.Color
         public let contentOnDatavizGrayDim2: SwiftUI.Color
+        public let contentOnDatavizGrayDim3: SwiftUI.Color
         public let contentOnDatavizOrangeDim1: SwiftUI.Color
         public let contentOnDatavizOrangeDim2: SwiftUI.Color
+        public let contentOnDatavizOrangeDim3: SwiftUI.Color
         public let contentOnDatavizPinkDim1: SwiftUI.Color
         public let contentOnDatavizPinkDim2: SwiftUI.Color
+        public let contentOnDatavizPinkDim3: SwiftUI.Color
         public let contentOnDatavizPurpleDim1: SwiftUI.Color
         public let contentOnDatavizPurpleDim2: SwiftUI.Color
+        public let contentOnDatavizPurpleDim3: SwiftUI.Color
         public let contentOnDatavizVioletDim1: SwiftUI.Color
         public let contentOnDatavizVioletDim2: SwiftUI.Color
+        public let contentOnDatavizVioletDim3: SwiftUI.Color
         public let contentOnDatavizYellowDim1: SwiftUI.Color
         public let contentOnDatavizYellowDim2: SwiftUI.Color
+        public let contentOnDatavizYellowDim3: SwiftUI.Color
         public let contentOnDisabled: SwiftUI.Color
         public let contentOnFeedbackErrorDim1: SwiftUI.Color
         public let contentOnFeedbackErrorDim2: SwiftUI.Color
+        public let contentOnFeedbackErrorDim3: SwiftUI.Color
         public let contentOnFeedbackInformationDim1: SwiftUI.Color
         public let contentOnFeedbackInformationDim2: SwiftUI.Color
+        public let contentOnFeedbackInformationDim3: SwiftUI.Color
         public let contentOnFeedbackNeutralDim1: SwiftUI.Color
         public let contentOnFeedbackNeutralDim2: SwiftUI.Color
+        public let contentOnFeedbackNeutralDim3: SwiftUI.Color
         public let contentOnFeedbackSuccessDim1: SwiftUI.Color
         public let contentOnFeedbackSuccessDim2: SwiftUI.Color
+        public let contentOnFeedbackSuccessDim3: SwiftUI.Color
         public let contentOnFeedbackWarningDim1: SwiftUI.Color
         public let contentOnFeedbackWarningDim2: SwiftUI.Color
+        public let contentOnFeedbackWarningDim3: SwiftUI.Color
         public let contentPrimary: SwiftUI.Color
         public let contentSecondary: SwiftUI.Color
         public let contentTertiary: SwiftUI.Color
@@ -185,10 +217,13 @@ public extension ESDSTheme {
         public let shadowXs: SwiftUI.Color
         public let stateFocus: SwiftUI.Color
         public let stateHoverMedium: SwiftUI.Color
+        public let stateHoverSoft: SwiftUI.Color
         public let stateHoverStrong: SwiftUI.Color
         public let statePressedMedium: SwiftUI.Color
+        public let statePressedSoft: SwiftUI.Color
         public let statePressedStrong: SwiftUI.Color
         public let stateSelectedMedium: SwiftUI.Color
+        public let stateSelectedSoft: SwiftUI.Color
         public let stateSelectedStrong: SwiftUI.Color
 
         public init(
@@ -205,22 +240,31 @@ public extension ESDSTheme {
             backgroundBrandSwisstransfer: SwiftUI.Color,
             backgroundDatavizBlueDim1: SwiftUI.Color,
             backgroundDatavizBlueDim2: SwiftUI.Color,
+            backgroundDatavizBlueDim3: SwiftUI.Color,
             backgroundDatavizDim1: SwiftUI.Color,
             backgroundDatavizDim2: SwiftUI.Color,
+            backgroundDatavizDim3: SwiftUI.Color,
             backgroundDatavizEmeraldDim1: SwiftUI.Color,
             backgroundDatavizEmeraldDim2: SwiftUI.Color,
+            backgroundDatavizEmeraldDim3: SwiftUI.Color,
             backgroundDatavizGrayDim1: SwiftUI.Color,
             backgroundDatavizGrayDim2: SwiftUI.Color,
+            backgroundDatavizGrayDim3: SwiftUI.Color,
             backgroundDatavizOrangeDim1: SwiftUI.Color,
             backgroundDatavizOrangeDim2: SwiftUI.Color,
+            backgroundDatavizOrangeDim3: SwiftUI.Color,
             backgroundDatavizPinkDim1: SwiftUI.Color,
             backgroundDatavizPinkDim2: SwiftUI.Color,
+            backgroundDatavizPinkDim3: SwiftUI.Color,
             backgroundDatavizPurpleDim1: SwiftUI.Color,
             backgroundDatavizPurpleDim2: SwiftUI.Color,
+            backgroundDatavizPurpleDim3: SwiftUI.Color,
             backgroundDatavizVioletDim1: SwiftUI.Color,
             backgroundDatavizVioletDim2: SwiftUI.Color,
+            backgroundDatavizVioletDim3: SwiftUI.Color,
             backgroundDatavizYellowDim1: SwiftUI.Color,
             backgroundDatavizYellowDim2: SwiftUI.Color,
+            backgroundDatavizYellowDim3: SwiftUI.Color,
             backgroundDisabled: SwiftUI.Color,
             backgroundElevationOverlay: SwiftUI.Color,
             backgroundElevationRaised: SwiftUI.Color,
@@ -295,6 +339,15 @@ public extension ESDSTheme {
             contentBrandMail: SwiftUI.Color,
             contentBrandSecurity: SwiftUI.Color,
             contentBrandSwisstransfer: SwiftUI.Color,
+            contentDataviz: SwiftUI.Color,
+            contentDatavizBlue: SwiftUI.Color,
+            contentDatavizEmerald: SwiftUI.Color,
+            contentDatavizGray: SwiftUI.Color,
+            contentDatavizOrange: SwiftUI.Color,
+            contentDatavizPink: SwiftUI.Color,
+            contentDatavizPurple: SwiftUI.Color,
+            contentDatavizViolet: SwiftUI.Color,
+            contentDatavizYellow: SwiftUI.Color,
             contentDisabled: SwiftUI.Color,
             contentFeedbackError: SwiftUI.Color,
             contentFeedbackInformation: SwiftUI.Color,
@@ -316,33 +369,47 @@ public extension ESDSTheme {
             contentOnBrandSwisstransfer: SwiftUI.Color,
             contentOnDatavizBlueDim1: SwiftUI.Color,
             contentOnDatavizBlueDim2: SwiftUI.Color,
+            contentOnDatavizBlueDim3: SwiftUI.Color,
             contentOnDatavizDim1: SwiftUI.Color,
             contentOnDatavizDim2: SwiftUI.Color,
+            contentOnDatavizDim3: SwiftUI.Color,
             contentOnDatavizEmeraldDim1: SwiftUI.Color,
             contentOnDatavizEmeraldDim2: SwiftUI.Color,
+            contentOnDatavizEmeraldDim3: SwiftUI.Color,
             contentOnDatavizGrayDim1: SwiftUI.Color,
             contentOnDatavizGrayDim2: SwiftUI.Color,
+            contentOnDatavizGrayDim3: SwiftUI.Color,
             contentOnDatavizOrangeDim1: SwiftUI.Color,
             contentOnDatavizOrangeDim2: SwiftUI.Color,
+            contentOnDatavizOrangeDim3: SwiftUI.Color,
             contentOnDatavizPinkDim1: SwiftUI.Color,
             contentOnDatavizPinkDim2: SwiftUI.Color,
+            contentOnDatavizPinkDim3: SwiftUI.Color,
             contentOnDatavizPurpleDim1: SwiftUI.Color,
             contentOnDatavizPurpleDim2: SwiftUI.Color,
+            contentOnDatavizPurpleDim3: SwiftUI.Color,
             contentOnDatavizVioletDim1: SwiftUI.Color,
             contentOnDatavizVioletDim2: SwiftUI.Color,
+            contentOnDatavizVioletDim3: SwiftUI.Color,
             contentOnDatavizYellowDim1: SwiftUI.Color,
             contentOnDatavizYellowDim2: SwiftUI.Color,
+            contentOnDatavizYellowDim3: SwiftUI.Color,
             contentOnDisabled: SwiftUI.Color,
             contentOnFeedbackErrorDim1: SwiftUI.Color,
             contentOnFeedbackErrorDim2: SwiftUI.Color,
+            contentOnFeedbackErrorDim3: SwiftUI.Color,
             contentOnFeedbackInformationDim1: SwiftUI.Color,
             contentOnFeedbackInformationDim2: SwiftUI.Color,
+            contentOnFeedbackInformationDim3: SwiftUI.Color,
             contentOnFeedbackNeutralDim1: SwiftUI.Color,
             contentOnFeedbackNeutralDim2: SwiftUI.Color,
+            contentOnFeedbackNeutralDim3: SwiftUI.Color,
             contentOnFeedbackSuccessDim1: SwiftUI.Color,
             contentOnFeedbackSuccessDim2: SwiftUI.Color,
+            contentOnFeedbackSuccessDim3: SwiftUI.Color,
             contentOnFeedbackWarningDim1: SwiftUI.Color,
             contentOnFeedbackWarningDim2: SwiftUI.Color,
+            contentOnFeedbackWarningDim3: SwiftUI.Color,
             contentPrimary: SwiftUI.Color,
             contentSecondary: SwiftUI.Color,
             contentTertiary: SwiftUI.Color,
@@ -355,10 +422,13 @@ public extension ESDSTheme {
             shadowXs: SwiftUI.Color,
             stateFocus: SwiftUI.Color,
             stateHoverMedium: SwiftUI.Color,
+            stateHoverSoft: SwiftUI.Color,
             stateHoverStrong: SwiftUI.Color,
             statePressedMedium: SwiftUI.Color,
+            statePressedSoft: SwiftUI.Color,
             statePressedStrong: SwiftUI.Color,
             stateSelectedMedium: SwiftUI.Color,
+            stateSelectedSoft: SwiftUI.Color,
             stateSelectedStrong: SwiftUI.Color
         ) {
             self.backgroundBrand = backgroundBrand
@@ -374,22 +444,31 @@ public extension ESDSTheme {
             self.backgroundBrandSwisstransfer = backgroundBrandSwisstransfer
             self.backgroundDatavizBlueDim1 = backgroundDatavizBlueDim1
             self.backgroundDatavizBlueDim2 = backgroundDatavizBlueDim2
+            self.backgroundDatavizBlueDim3 = backgroundDatavizBlueDim3
             self.backgroundDatavizDim1 = backgroundDatavizDim1
             self.backgroundDatavizDim2 = backgroundDatavizDim2
+            self.backgroundDatavizDim3 = backgroundDatavizDim3
             self.backgroundDatavizEmeraldDim1 = backgroundDatavizEmeraldDim1
             self.backgroundDatavizEmeraldDim2 = backgroundDatavizEmeraldDim2
+            self.backgroundDatavizEmeraldDim3 = backgroundDatavizEmeraldDim3
             self.backgroundDatavizGrayDim1 = backgroundDatavizGrayDim1
             self.backgroundDatavizGrayDim2 = backgroundDatavizGrayDim2
+            self.backgroundDatavizGrayDim3 = backgroundDatavizGrayDim3
             self.backgroundDatavizOrangeDim1 = backgroundDatavizOrangeDim1
             self.backgroundDatavizOrangeDim2 = backgroundDatavizOrangeDim2
+            self.backgroundDatavizOrangeDim3 = backgroundDatavizOrangeDim3
             self.backgroundDatavizPinkDim1 = backgroundDatavizPinkDim1
             self.backgroundDatavizPinkDim2 = backgroundDatavizPinkDim2
+            self.backgroundDatavizPinkDim3 = backgroundDatavizPinkDim3
             self.backgroundDatavizPurpleDim1 = backgroundDatavizPurpleDim1
             self.backgroundDatavizPurpleDim2 = backgroundDatavizPurpleDim2
+            self.backgroundDatavizPurpleDim3 = backgroundDatavizPurpleDim3
             self.backgroundDatavizVioletDim1 = backgroundDatavizVioletDim1
             self.backgroundDatavizVioletDim2 = backgroundDatavizVioletDim2
+            self.backgroundDatavizVioletDim3 = backgroundDatavizVioletDim3
             self.backgroundDatavizYellowDim1 = backgroundDatavizYellowDim1
             self.backgroundDatavizYellowDim2 = backgroundDatavizYellowDim2
+            self.backgroundDatavizYellowDim3 = backgroundDatavizYellowDim3
             self.backgroundDisabled = backgroundDisabled
             self.backgroundElevationOverlay = backgroundElevationOverlay
             self.backgroundElevationRaised = backgroundElevationRaised
@@ -464,6 +543,15 @@ public extension ESDSTheme {
             self.contentBrandMail = contentBrandMail
             self.contentBrandSecurity = contentBrandSecurity
             self.contentBrandSwisstransfer = contentBrandSwisstransfer
+            self.contentDataviz = contentDataviz
+            self.contentDatavizBlue = contentDatavizBlue
+            self.contentDatavizEmerald = contentDatavizEmerald
+            self.contentDatavizGray = contentDatavizGray
+            self.contentDatavizOrange = contentDatavizOrange
+            self.contentDatavizPink = contentDatavizPink
+            self.contentDatavizPurple = contentDatavizPurple
+            self.contentDatavizViolet = contentDatavizViolet
+            self.contentDatavizYellow = contentDatavizYellow
             self.contentDisabled = contentDisabled
             self.contentFeedbackError = contentFeedbackError
             self.contentFeedbackInformation = contentFeedbackInformation
@@ -485,33 +573,47 @@ public extension ESDSTheme {
             self.contentOnBrandSwisstransfer = contentOnBrandSwisstransfer
             self.contentOnDatavizBlueDim1 = contentOnDatavizBlueDim1
             self.contentOnDatavizBlueDim2 = contentOnDatavizBlueDim2
+            self.contentOnDatavizBlueDim3 = contentOnDatavizBlueDim3
             self.contentOnDatavizDim1 = contentOnDatavizDim1
             self.contentOnDatavizDim2 = contentOnDatavizDim2
+            self.contentOnDatavizDim3 = contentOnDatavizDim3
             self.contentOnDatavizEmeraldDim1 = contentOnDatavizEmeraldDim1
             self.contentOnDatavizEmeraldDim2 = contentOnDatavizEmeraldDim2
+            self.contentOnDatavizEmeraldDim3 = contentOnDatavizEmeraldDim3
             self.contentOnDatavizGrayDim1 = contentOnDatavizGrayDim1
             self.contentOnDatavizGrayDim2 = contentOnDatavizGrayDim2
+            self.contentOnDatavizGrayDim3 = contentOnDatavizGrayDim3
             self.contentOnDatavizOrangeDim1 = contentOnDatavizOrangeDim1
             self.contentOnDatavizOrangeDim2 = contentOnDatavizOrangeDim2
+            self.contentOnDatavizOrangeDim3 = contentOnDatavizOrangeDim3
             self.contentOnDatavizPinkDim1 = contentOnDatavizPinkDim1
             self.contentOnDatavizPinkDim2 = contentOnDatavizPinkDim2
+            self.contentOnDatavizPinkDim3 = contentOnDatavizPinkDim3
             self.contentOnDatavizPurpleDim1 = contentOnDatavizPurpleDim1
             self.contentOnDatavizPurpleDim2 = contentOnDatavizPurpleDim2
+            self.contentOnDatavizPurpleDim3 = contentOnDatavizPurpleDim3
             self.contentOnDatavizVioletDim1 = contentOnDatavizVioletDim1
             self.contentOnDatavizVioletDim2 = contentOnDatavizVioletDim2
+            self.contentOnDatavizVioletDim3 = contentOnDatavizVioletDim3
             self.contentOnDatavizYellowDim1 = contentOnDatavizYellowDim1
             self.contentOnDatavizYellowDim2 = contentOnDatavizYellowDim2
+            self.contentOnDatavizYellowDim3 = contentOnDatavizYellowDim3
             self.contentOnDisabled = contentOnDisabled
             self.contentOnFeedbackErrorDim1 = contentOnFeedbackErrorDim1
             self.contentOnFeedbackErrorDim2 = contentOnFeedbackErrorDim2
+            self.contentOnFeedbackErrorDim3 = contentOnFeedbackErrorDim3
             self.contentOnFeedbackInformationDim1 = contentOnFeedbackInformationDim1
             self.contentOnFeedbackInformationDim2 = contentOnFeedbackInformationDim2
+            self.contentOnFeedbackInformationDim3 = contentOnFeedbackInformationDim3
             self.contentOnFeedbackNeutralDim1 = contentOnFeedbackNeutralDim1
             self.contentOnFeedbackNeutralDim2 = contentOnFeedbackNeutralDim2
+            self.contentOnFeedbackNeutralDim3 = contentOnFeedbackNeutralDim3
             self.contentOnFeedbackSuccessDim1 = contentOnFeedbackSuccessDim1
             self.contentOnFeedbackSuccessDim2 = contentOnFeedbackSuccessDim2
+            self.contentOnFeedbackSuccessDim3 = contentOnFeedbackSuccessDim3
             self.contentOnFeedbackWarningDim1 = contentOnFeedbackWarningDim1
             self.contentOnFeedbackWarningDim2 = contentOnFeedbackWarningDim2
+            self.contentOnFeedbackWarningDim3 = contentOnFeedbackWarningDim3
             self.contentPrimary = contentPrimary
             self.contentSecondary = contentSecondary
             self.contentTertiary = contentTertiary
@@ -524,10 +626,13 @@ public extension ESDSTheme {
             self.shadowXs = shadowXs
             self.stateFocus = stateFocus
             self.stateHoverMedium = stateHoverMedium
+            self.stateHoverSoft = stateHoverSoft
             self.stateHoverStrong = stateHoverStrong
             self.statePressedMedium = statePressedMedium
+            self.statePressedSoft = statePressedSoft
             self.statePressedStrong = statePressedStrong
             self.stateSelectedMedium = stateSelectedMedium
+            self.stateSelectedSoft = stateSelectedSoft
             self.stateSelectedStrong = stateSelectedStrong
         }
     }
