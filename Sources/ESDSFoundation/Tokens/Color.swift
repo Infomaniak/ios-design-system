@@ -185,10 +185,13 @@ public extension ESDSTheme {
         public let shadowXs: SwiftUI.Color
         public let stateFocus: SwiftUI.Color
         public let stateHoverMedium: SwiftUI.Color
+        public let stateHoverSoft: SwiftUI.Color
         public let stateHoverStrong: SwiftUI.Color
         public let statePressedMedium: SwiftUI.Color
+        public let statePressedSoft: SwiftUI.Color
         public let statePressedStrong: SwiftUI.Color
         public let stateSelectedMedium: SwiftUI.Color
+        public let stateSelectedSoft: SwiftUI.Color
         public let stateSelectedStrong: SwiftUI.Color
 
         public init(
@@ -355,10 +358,13 @@ public extension ESDSTheme {
             shadowXs: SwiftUI.Color,
             stateFocus: SwiftUI.Color,
             stateHoverMedium: SwiftUI.Color,
+            stateHoverSoft: SwiftUI.Color,
             stateHoverStrong: SwiftUI.Color,
             statePressedMedium: SwiftUI.Color,
+            statePressedSoft: SwiftUI.Color,
             statePressedStrong: SwiftUI.Color,
             stateSelectedMedium: SwiftUI.Color,
+            stateSelectedSoft: SwiftUI.Color,
             stateSelectedStrong: SwiftUI.Color
         ) {
             self.backgroundBrand = backgroundBrand
@@ -524,10 +530,13 @@ public extension ESDSTheme {
             self.shadowXs = shadowXs
             self.stateFocus = stateFocus
             self.stateHoverMedium = stateHoverMedium
+            self.stateHoverSoft = stateHoverSoft
             self.stateHoverStrong = stateHoverStrong
             self.statePressedMedium = statePressedMedium
+            self.statePressedSoft = statePressedSoft
             self.statePressedStrong = statePressedStrong
             self.stateSelectedMedium = stateSelectedMedium
+            self.stateSelectedSoft = stateSelectedSoft
             self.stateSelectedStrong = stateSelectedStrong
         }
     }

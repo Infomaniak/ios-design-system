@@ -196,10 +196,13 @@ extension ESDSTheme.Color {
         shadowXs: SwiftUI.Color(light: PrimitiveToken.Color.gray4006, dark: PrimitiveToken.Color.gray9506),
         stateFocus: SwiftUI.Color(light: PrimitiveToken.Color.blue600, dark: PrimitiveToken.Color.blue400),
         stateHoverMedium: SwiftUI.Color(light: PrimitiveToken.Color.blue90012, dark: PrimitiveToken.Color.gray5012),
+        stateHoverSoft: SwiftUI.Color(light: PrimitiveToken.Color.blue9006, dark: PrimitiveToken.Color.gray506),
         stateHoverStrong: SwiftUI.Color(light: PrimitiveToken.Color.blue90060, dark: PrimitiveToken.Color.gray5020),
         statePressedMedium: SwiftUI.Color(light: PrimitiveToken.Color.blue90016, dark: PrimitiveToken.Color.gray5016),
+        statePressedSoft: SwiftUI.Color(light: PrimitiveToken.Color.blue90012, dark: PrimitiveToken.Color.gray5012),
         statePressedStrong: SwiftUI.Color(light: PrimitiveToken.Color.blue90080, dark: PrimitiveToken.Color.gray5040),
         stateSelectedMedium: SwiftUI.Color(light: PrimitiveToken.Color.blue90040, dark: PrimitiveToken.Color.gray5040),
+        stateSelectedSoft: SwiftUI.Color(light: PrimitiveToken.Color.blue90020, dark: PrimitiveToken.Color.gray5020),
         stateSelectedStrong: SwiftUI.Color(light: PrimitiveToken.Color.blue90080, dark: PrimitiveToken.Color.gray5040)
     )
 }
