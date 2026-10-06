@@ -137,7 +137,8 @@ public enum ESDSSymbols: Sendable {
     public static let doorOpen = Symbol(name: "door-open")
     public static let dotsList = Symbol(name: "dots-list")
     public static let dotsNine = Symbol(name: "dots-nine")
-    public static let dotsSix = Symbol(name: "dots-six")
+    public static let dotsSixHorizontal = Symbol(name: "dots-six-horizontal")
+    public static let dotsSixVertical = Symbol(name: "dots-six-vertical")
     public static let dotsThreeHorizontal = Symbol(name: "dots-three-horizontal")
     public static let dotsThreeVertical = Symbol(name: "dots-three-vertical")
     public static let doubleQuotesClosing = Symbol(name: "double-quotes-closing")
@@ -203,6 +204,7 @@ public enum ESDSSymbols: Sendable {
     public static let magnifyingGlassPlus = Symbol(name: "magnifying-glass-plus")
     public static let magnifyingGlass = Symbol(name: "magnifying-glass")
     public static let mapPin = Symbol(name: "map-pin")
+    public static let megaphone = Symbol(name: "megaphone")
     public static let mic = Symbol(name: "mic")
     public static let minus = Symbol(name: "minus")
     public static let monitor = Symbol(name: "monitor")
@@ -311,4 +313,5 @@ public enum ESDSSymbols: Sendable {
     public static let waveArcsUp = Symbol(name: "wave-arcs-up")
     public static let waveform = Symbol(name: "waveform")
     public static let wrench = Symbol(name: "wrench")
+    public static let zigzagArrowUpRight = Symbol(name: "zigzag-arrow-up-right")
 }
