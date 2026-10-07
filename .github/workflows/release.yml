@@ -1,0 +1,57 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - '[0-9]*.[0-9]*.[0-9]*'
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Publish stable release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ github.ref_name }}
+
+    steps:
+      - name: Check stable tag
+        id: tag
+        shell: bash
+        run: |
+          if [[ "$RELEASE_TAG" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "stable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Skipping non-stable tag: $RELEASE_TAG"
+          fi
+
+      - name: Checkout release tag
+        if: steps.tag.outputs.stable == 'true'
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
+          persist-credentials: false
+
+      - name: Generate artifact release notes
+        if: steps.tag.outputs.stable == 'true'
+        shell: bash
+        run: python3 scripts/generate-release-notes.py package-versions.json > "$RUNNER_TEMP/release-notes.md"
+
+      - name: Publish release
+        if: steps.tag.outputs.stable == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          gh release create "$RELEASE_TAG" \
+            --verify-tag \
+            --title "$RELEASE_TAG" \
+            --notes-file "$RUNNER_TEMP/release-notes.md" \
+            --generate-notes
