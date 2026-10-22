@@ -91,38 +91,66 @@ public extension ESDSTheme {
         public let borderBrandMail: SwiftUI.Color
         public let borderBrandSecurity: SwiftUI.Color
         public let borderBrandSwisstransfer: SwiftUI.Color
-        public let borderDatavizBlueDim1: SwiftUI.Color
-        public let borderDatavizBlueDim2: SwiftUI.Color
-        public let borderDatavizDim1: SwiftUI.Color
-        public let borderDatavizDim2: SwiftUI.Color
-        public let borderDatavizEmeraldDim1: SwiftUI.Color
-        public let borderDatavizEmeraldDim2: SwiftUI.Color
-        public let borderDatavizGrayDim1: SwiftUI.Color
-        public let borderDatavizGrayDim2: SwiftUI.Color
-        public let borderDatavizOrangeDim1: SwiftUI.Color
-        public let borderDatavizOrangeDim2: SwiftUI.Color
-        public let borderDatavizPinkDim1: SwiftUI.Color
-        public let borderDatavizPinkDim2: SwiftUI.Color
-        public let borderDatavizPurpleDim1: SwiftUI.Color
-        public let borderDatavizPurpleDim2: SwiftUI.Color
-        public let borderDatavizVioletDim1: SwiftUI.Color
-        public let borderDatavizVioletDim2: SwiftUI.Color
-        public let borderDatavizYellowDim1: SwiftUI.Color
-        public let borderDatavizYellowDim2: SwiftUI.Color
+        public let borderDataviz: SwiftUI.Color
+        public let borderDatavizBlue: SwiftUI.Color
+        public let borderDatavizEmerald: SwiftUI.Color
+        public let borderDatavizGray: SwiftUI.Color
+        public let borderDatavizOrange: SwiftUI.Color
+        public let borderDatavizPink: SwiftUI.Color
+        public let borderDatavizPurple: SwiftUI.Color
+        public let borderDatavizViolet: SwiftUI.Color
+        public let borderDatavizYellow: SwiftUI.Color
         public let borderDim1: SwiftUI.Color
         public let borderDim2: SwiftUI.Color
         public let borderDim3: SwiftUI.Color
         public let borderDim4: SwiftUI.Color
-        public let borderFeedbackErrorDim1: SwiftUI.Color
-        public let borderFeedbackErrorDim2: SwiftUI.Color
-        public let borderFeedbackInformationDim1: SwiftUI.Color
-        public let borderFeedbackInformationDim2: SwiftUI.Color
-        public let borderFeedbackNeutralDim1: SwiftUI.Color
-        public let borderFeedbackNeutralDim2: SwiftUI.Color
-        public let borderFeedbackSuccessDim1: SwiftUI.Color
-        public let borderFeedbackSuccessDim2: SwiftUI.Color
-        public let borderFeedbackWarningDim1: SwiftUI.Color
-        public let borderFeedbackWarningDim2: SwiftUI.Color
+        public let borderFeedbackError: SwiftUI.Color
+        public let borderFeedbackInformation: SwiftUI.Color
+        public let borderFeedbackNeutral: SwiftUI.Color
+        public let borderFeedbackSuccess: SwiftUI.Color
+        public let borderFeedbackWarning: SwiftUI.Color
+        public let borderOnDatavizBlueDim1: SwiftUI.Color
+        public let borderOnDatavizBlueDim2: SwiftUI.Color
+        public let borderOnDatavizBlueDim3: SwiftUI.Color
+        public let borderOnDatavizDim1: SwiftUI.Color
+        public let borderOnDatavizDim2: SwiftUI.Color
+        public let borderOnDatavizDim3: SwiftUI.Color
+        public let borderOnDatavizEmeraldDim1: SwiftUI.Color
+        public let borderOnDatavizEmeraldDim2: SwiftUI.Color
+        public let borderOnDatavizEmeraldDim3: SwiftUI.Color
+        public let borderOnDatavizGrayDim1: SwiftUI.Color
+        public let borderOnDatavizGrayDim2: SwiftUI.Color
+        public let borderOnDatavizGrayDim3: SwiftUI.Color
+        public let borderOnDatavizOrangeDim1: SwiftUI.Color
+        public let borderOnDatavizOrangeDim2: SwiftUI.Color
+        public let borderOnDatavizOrangeDim3: SwiftUI.Color
+        public let borderOnDatavizPinkDim1: SwiftUI.Color
+        public let borderOnDatavizPinkDim2: SwiftUI.Color
+        public let borderOnDatavizPinkDim3: SwiftUI.Color
+        public let borderOnDatavizPurpleDim1: SwiftUI.Color
+        public let borderOnDatavizPurpleDim2: SwiftUI.Color
+        public let borderOnDatavizPurpleDim3: SwiftUI.Color
+        public let borderOnDatavizVioletDim1: SwiftUI.Color
+        public let borderOnDatavizVioletDim2: SwiftUI.Color
+        public let borderOnDatavizVioletDim3: SwiftUI.Color
+        public let borderOnDatavizYellowDim1: SwiftUI.Color
+        public let borderOnDatavizYellowDim2: SwiftUI.Color
+        public let borderOnDatavizYellowDim3: SwiftUI.Color
+        public let borderOnFeedbackErrorDim1: SwiftUI.Color
+        public let borderOnFeedbackErrorDim2: SwiftUI.Color
+        public let borderOnFeedbackErrorDim3: SwiftUI.Color
+        public let borderOnFeedbackInformationDim1: SwiftUI.Color
+        public let borderOnFeedbackInformationDim2: SwiftUI.Color
+        public let borderOnFeedbackInformationDim3: SwiftUI.Color
+        public let borderOnFeedbackNeutralDim1: SwiftUI.Color
+        public let borderOnFeedbackNeutralDim2: SwiftUI.Color
+        public let borderOnFeedbackNeutralDim3: SwiftUI.Color
+        public let borderOnFeedbackSuccessDim1: SwiftUI.Color
+        public let borderOnFeedbackSuccessDim2: SwiftUI.Color
+        public let borderOnFeedbackSuccessDim3: SwiftUI.Color
+        public let borderOnFeedbackWarningDim1: SwiftUI.Color
+        public let borderOnFeedbackWarningDim2: SwiftUI.Color
+        public let borderOnFeedbackWarningDim3: SwiftUI.Color
         public let contentBrand: SwiftUI.Color
         public let contentBrandCalendar: SwiftUI.Color
         public let contentBrandContacts: SwiftUI.Color
@@ -296,38 +324,66 @@ public extension ESDSTheme {
             borderBrandMail: SwiftUI.Color,
             borderBrandSecurity: SwiftUI.Color,
             borderBrandSwisstransfer: SwiftUI.Color,
-            borderDatavizBlueDim1: SwiftUI.Color,
-            borderDatavizBlueDim2: SwiftUI.Color,
-            borderDatavizDim1: SwiftUI.Color,
-            borderDatavizDim2: SwiftUI.Color,
-            borderDatavizEmeraldDim1: SwiftUI.Color,
-            borderDatavizEmeraldDim2: SwiftUI.Color,
-            borderDatavizGrayDim1: SwiftUI.Color,
-            borderDatavizGrayDim2: SwiftUI.Color,
-            borderDatavizOrangeDim1: SwiftUI.Color,
-            borderDatavizOrangeDim2: SwiftUI.Color,
-            borderDatavizPinkDim1: SwiftUI.Color,
-            borderDatavizPinkDim2: SwiftUI.Color,
-            borderDatavizPurpleDim1: SwiftUI.Color,
-            borderDatavizPurpleDim2: SwiftUI.Color,
-            borderDatavizVioletDim1: SwiftUI.Color,
-            borderDatavizVioletDim2: SwiftUI.Color,
-            borderDatavizYellowDim1: SwiftUI.Color,
-            borderDatavizYellowDim2: SwiftUI.Color,
+            borderDataviz: SwiftUI.Color,
+            borderDatavizBlue: SwiftUI.Color,
+            borderDatavizEmerald: SwiftUI.Color,
+            borderDatavizGray: SwiftUI.Color,
+            borderDatavizOrange: SwiftUI.Color,
+            borderDatavizPink: SwiftUI.Color,
+            borderDatavizPurple: SwiftUI.Color,
+            borderDatavizViolet: SwiftUI.Color,
+            borderDatavizYellow: SwiftUI.Color,
             borderDim1: SwiftUI.Color,
             borderDim2: SwiftUI.Color,
             borderDim3: SwiftUI.Color,
             borderDim4: SwiftUI.Color,
-            borderFeedbackErrorDim1: SwiftUI.Color,
-            borderFeedbackErrorDim2: SwiftUI.Color,
-            borderFeedbackInformationDim1: SwiftUI.Color,
-            borderFeedbackInformationDim2: SwiftUI.Color,
-            borderFeedbackNeutralDim1: SwiftUI.Color,
-            borderFeedbackNeutralDim2: SwiftUI.Color,
-            borderFeedbackSuccessDim1: SwiftUI.Color,
-            borderFeedbackSuccessDim2: SwiftUI.Color,
-            borderFeedbackWarningDim1: SwiftUI.Color,
-            borderFeedbackWarningDim2: SwiftUI.Color,
+            borderFeedbackError: SwiftUI.Color,
+            borderFeedbackInformation: SwiftUI.Color,
+            borderFeedbackNeutral: SwiftUI.Color,
+            borderFeedbackSuccess: SwiftUI.Color,
+            borderFeedbackWarning: SwiftUI.Color,
+            borderOnDatavizBlueDim1: SwiftUI.Color,
+            borderOnDatavizBlueDim2: SwiftUI.Color,
+            borderOnDatavizBlueDim3: SwiftUI.Color,
+            borderOnDatavizDim1: SwiftUI.Color,
+            borderOnDatavizDim2: SwiftUI.Color,
+            borderOnDatavizDim3: SwiftUI.Color,
+            borderOnDatavizEmeraldDim1: SwiftUI.Color,
+            borderOnDatavizEmeraldDim2: SwiftUI.Color,
+            borderOnDatavizEmeraldDim3: SwiftUI.Color,
+            borderOnDatavizGrayDim1: SwiftUI.Color,
+            borderOnDatavizGrayDim2: SwiftUI.Color,
+            borderOnDatavizGrayDim3: SwiftUI.Color,
+            borderOnDatavizOrangeDim1: SwiftUI.Color,
+            borderOnDatavizOrangeDim2: SwiftUI.Color,
+            borderOnDatavizOrangeDim3: SwiftUI.Color,
+            borderOnDatavizPinkDim1: SwiftUI.Color,
+            borderOnDatavizPinkDim2: SwiftUI.Color,
+            borderOnDatavizPinkDim3: SwiftUI.Color,
+            borderOnDatavizPurpleDim1: SwiftUI.Color,
+            borderOnDatavizPurpleDim2: SwiftUI.Color,
+            borderOnDatavizPurpleDim3: SwiftUI.Color,
+            borderOnDatavizVioletDim1: SwiftUI.Color,
+            borderOnDatavizVioletDim2: SwiftUI.Color,
+            borderOnDatavizVioletDim3: SwiftUI.Color,
+            borderOnDatavizYellowDim1: SwiftUI.Color,
+            borderOnDatavizYellowDim2: SwiftUI.Color,
+            borderOnDatavizYellowDim3: SwiftUI.Color,
+            borderOnFeedbackErrorDim1: SwiftUI.Color,
+            borderOnFeedbackErrorDim2: SwiftUI.Color,
+            borderOnFeedbackErrorDim3: SwiftUI.Color,
+            borderOnFeedbackInformationDim1: SwiftUI.Color,
+            borderOnFeedbackInformationDim2: SwiftUI.Color,
+            borderOnFeedbackInformationDim3: SwiftUI.Color,
+            borderOnFeedbackNeutralDim1: SwiftUI.Color,
+            borderOnFeedbackNeutralDim2: SwiftUI.Color,
+            borderOnFeedbackNeutralDim3: SwiftUI.Color,
+            borderOnFeedbackSuccessDim1: SwiftUI.Color,
+            borderOnFeedbackSuccessDim2: SwiftUI.Color,
+            borderOnFeedbackSuccessDim3: SwiftUI.Color,
+            borderOnFeedbackWarningDim1: SwiftUI.Color,
+            borderOnFeedbackWarningDim2: SwiftUI.Color,
+            borderOnFeedbackWarningDim3: SwiftUI.Color,
             contentBrand: SwiftUI.Color,
             contentBrandCalendar: SwiftUI.Color,
             contentBrandContacts: SwiftUI.Color,
@@ -500,38 +556,66 @@ public extension ESDSTheme {
             self.borderBrandMail = borderBrandMail
             self.borderBrandSecurity = borderBrandSecurity
             self.borderBrandSwisstransfer = borderBrandSwisstransfer
-            self.borderDatavizBlueDim1 = borderDatavizBlueDim1
-            self.borderDatavizBlueDim2 = borderDatavizBlueDim2
-            self.borderDatavizDim1 = borderDatavizDim1
-            self.borderDatavizDim2 = borderDatavizDim2
-            self.borderDatavizEmeraldDim1 = borderDatavizEmeraldDim1
-            self.borderDatavizEmeraldDim2 = borderDatavizEmeraldDim2
-            self.borderDatavizGrayDim1 = borderDatavizGrayDim1
-            self.borderDatavizGrayDim2 = borderDatavizGrayDim2
-            self.borderDatavizOrangeDim1 = borderDatavizOrangeDim1
-            self.borderDatavizOrangeDim2 = borderDatavizOrangeDim2
-            self.borderDatavizPinkDim1 = borderDatavizPinkDim1
-            self.borderDatavizPinkDim2 = borderDatavizPinkDim2
-            self.borderDatavizPurpleDim1 = borderDatavizPurpleDim1
-            self.borderDatavizPurpleDim2 = borderDatavizPurpleDim2
-            self.borderDatavizVioletDim1 = borderDatavizVioletDim1
-            self.borderDatavizVioletDim2 = borderDatavizVioletDim2
-            self.borderDatavizYellowDim1 = borderDatavizYellowDim1
-            self.borderDatavizYellowDim2 = borderDatavizYellowDim2
+            self.borderDataviz = borderDataviz
+            self.borderDatavizBlue = borderDatavizBlue
+            self.borderDatavizEmerald = borderDatavizEmerald
+            self.borderDatavizGray = borderDatavizGray
+            self.borderDatavizOrange = borderDatavizOrange
+            self.borderDatavizPink = borderDatavizPink
+            self.borderDatavizPurple = borderDatavizPurple
+            self.borderDatavizViolet = borderDatavizViolet
+            self.borderDatavizYellow = borderDatavizYellow
             self.borderDim1 = borderDim1
             self.borderDim2 = borderDim2
             self.borderDim3 = borderDim3
             self.borderDim4 = borderDim4
-            self.borderFeedbackErrorDim1 = borderFeedbackErrorDim1
-            self.borderFeedbackErrorDim2 = borderFeedbackErrorDim2
-            self.borderFeedbackInformationDim1 = borderFeedbackInformationDim1
-            self.borderFeedbackInformationDim2 = borderFeedbackInformationDim2
-            self.borderFeedbackNeutralDim1 = borderFeedbackNeutralDim1
-            self.borderFeedbackNeutralDim2 = borderFeedbackNeutralDim2
-            self.borderFeedbackSuccessDim1 = borderFeedbackSuccessDim1
-            self.borderFeedbackSuccessDim2 = borderFeedbackSuccessDim2
-            self.borderFeedbackWarningDim1 = borderFeedbackWarningDim1
-            self.borderFeedbackWarningDim2 = borderFeedbackWarningDim2
+            self.borderFeedbackError = borderFeedbackError
+            self.borderFeedbackInformation = borderFeedbackInformation
+            self.borderFeedbackNeutral = borderFeedbackNeutral
+            self.borderFeedbackSuccess = borderFeedbackSuccess
+            self.borderFeedbackWarning = borderFeedbackWarning
+            self.borderOnDatavizBlueDim1 = borderOnDatavizBlueDim1
+            self.borderOnDatavizBlueDim2 = borderOnDatavizBlueDim2
+            self.borderOnDatavizBlueDim3 = borderOnDatavizBlueDim3
+            self.borderOnDatavizDim1 = borderOnDatavizDim1
+            self.borderOnDatavizDim2 = borderOnDatavizDim2
+            self.borderOnDatavizDim3 = borderOnDatavizDim3
+            self.borderOnDatavizEmeraldDim1 = borderOnDatavizEmeraldDim1
+            self.borderOnDatavizEmeraldDim2 = borderOnDatavizEmeraldDim2
+            self.borderOnDatavizEmeraldDim3 = borderOnDatavizEmeraldDim3
+            self.borderOnDatavizGrayDim1 = borderOnDatavizGrayDim1
+            self.borderOnDatavizGrayDim2 = borderOnDatavizGrayDim2
+            self.borderOnDatavizGrayDim3 = borderOnDatavizGrayDim3
+            self.borderOnDatavizOrangeDim1 = borderOnDatavizOrangeDim1
+            self.borderOnDatavizOrangeDim2 = borderOnDatavizOrangeDim2
+            self.borderOnDatavizOrangeDim3 = borderOnDatavizOrangeDim3
+            self.borderOnDatavizPinkDim1 = borderOnDatavizPinkDim1
+            self.borderOnDatavizPinkDim2 = borderOnDatavizPinkDim2
+            self.borderOnDatavizPinkDim3 = borderOnDatavizPinkDim3
+            self.borderOnDatavizPurpleDim1 = borderOnDatavizPurpleDim1
+            self.borderOnDatavizPurpleDim2 = borderOnDatavizPurpleDim2
+            self.borderOnDatavizPurpleDim3 = borderOnDatavizPurpleDim3
+            self.borderOnDatavizVioletDim1 = borderOnDatavizVioletDim1
+            self.borderOnDatavizVioletDim2 = borderOnDatavizVioletDim2
+            self.borderOnDatavizVioletDim3 = borderOnDatavizVioletDim3
+            self.borderOnDatavizYellowDim1 = borderOnDatavizYellowDim1
+            self.borderOnDatavizYellowDim2 = borderOnDatavizYellowDim2
+            self.borderOnDatavizYellowDim3 = borderOnDatavizYellowDim3
+            self.borderOnFeedbackErrorDim1 = borderOnFeedbackErrorDim1
+            self.borderOnFeedbackErrorDim2 = borderOnFeedbackErrorDim2
+            self.borderOnFeedbackErrorDim3 = borderOnFeedbackErrorDim3
+            self.borderOnFeedbackInformationDim1 = borderOnFeedbackInformationDim1
+            self.borderOnFeedbackInformationDim2 = borderOnFeedbackInformationDim2
+            self.borderOnFeedbackInformationDim3 = borderOnFeedbackInformationDim3
+            self.borderOnFeedbackNeutralDim1 = borderOnFeedbackNeutralDim1
+            self.borderOnFeedbackNeutralDim2 = borderOnFeedbackNeutralDim2
+            self.borderOnFeedbackNeutralDim3 = borderOnFeedbackNeutralDim3
+            self.borderOnFeedbackSuccessDim1 = borderOnFeedbackSuccessDim1
+            self.borderOnFeedbackSuccessDim2 = borderOnFeedbackSuccessDim2
+            self.borderOnFeedbackSuccessDim3 = borderOnFeedbackSuccessDim3
+            self.borderOnFeedbackWarningDim1 = borderOnFeedbackWarningDim1
+            self.borderOnFeedbackWarningDim2 = borderOnFeedbackWarningDim2
+            self.borderOnFeedbackWarningDim3 = borderOnFeedbackWarningDim3
             self.contentBrand = contentBrand
             self.contentBrandCalendar = contentBrandCalendar
             self.contentBrandContacts = contentBrandContacts
