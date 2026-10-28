@@ -23,7 +23,9 @@ import ESDSFoundation
 public extension ESDSTheme {
     static let kdrive = ESDSTheme(
         color: .kdrive,
+        debug2: .kdrive,
         icon: .kdrive,
+        opacity: .kdrive,
         radius: .kdrive,
         spacing: .kdrive
     )

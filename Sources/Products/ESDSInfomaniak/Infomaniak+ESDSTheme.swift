@@ -23,7 +23,9 @@ import ESDSFoundation
 public extension ESDSTheme {
     static let infomaniak = ESDSTheme(
         color: .infomaniak,
+        debug2: .infomaniak,
         icon: .infomaniak,
+        opacity: .infomaniak,
         radius: .infomaniak,
         spacing: .infomaniak
     )

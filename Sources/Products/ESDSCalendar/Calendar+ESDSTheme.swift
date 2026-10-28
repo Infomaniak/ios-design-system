@@ -23,7 +23,9 @@ import ESDSFoundation
 public extension ESDSTheme {
     static let calendar = ESDSTheme(
         color: .calendar,
+        debug2: .calendar,
         icon: .calendar,
+        opacity: .calendar,
         radius: .calendar,
         spacing: .calendar
     )

@@ -23,7 +23,9 @@ import ESDSFoundation
 public extension ESDSTheme {
     static let kchat = ESDSTheme(
         color: .kchat,
+        debug2: .kchat,
         icon: .kchat,
+        opacity: .kchat,
         radius: .kchat,
         spacing: .kchat
     )
