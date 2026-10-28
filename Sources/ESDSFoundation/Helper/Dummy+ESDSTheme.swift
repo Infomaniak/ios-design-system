@@ -23,7 +23,9 @@ import Foundation
 public extension ESDSTheme {
     static let dummy = ESDSTheme(
         color: .dummy,
+        debug2: .dummy,
         icon: .dummy,
+        opacity: .dummy,
         radius: .dummy,
         spacing: .dummy
     )
