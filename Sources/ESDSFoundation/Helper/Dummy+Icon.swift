@@ -23,10 +23,10 @@ import Foundation
 
 extension ESDSTheme.Icon {
     static let dummy = ESDSTheme.Icon(
-        sizeLg: PrimitiveToken.Scale.thirtyTwo,
-        sizeMd: PrimitiveToken.Scale.twentyFour,
-        sizeSm: PrimitiveToken.Scale.twenty,
-        sizeXl: PrimitiveToken.Scale.forty,
-        sizeXs: PrimitiveToken.Scale.sixteen
+        sizeLg: PrimitiveToken.Dimension.thirtyTwo,
+        sizeMd: PrimitiveToken.Dimension.twentyFour,
+        sizeSm: PrimitiveToken.Dimension.twenty,
+        sizeXl: PrimitiveToken.Dimension.forty,
+        sizeXs: PrimitiveToken.Dimension.sixteen
     )
 }
