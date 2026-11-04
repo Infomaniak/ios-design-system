@@ -23,17 +23,20 @@ import Foundation
 public struct ESDSTheme: Sendable {
     public let color: Color
     public let icon: Icon
+    public let opacity: Opacity
     public let radius: Radius
     public let spacing: Spacing
 
     public init(
         color: Color,
         icon: Icon,
+        opacity: Opacity,
         radius: Radius,
         spacing: Spacing
     ) {
         self.color = color
         self.icon = icon
+        self.opacity = opacity
         self.radius = radius
         self.spacing = spacing
     }
