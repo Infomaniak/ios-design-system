@@ -1,0 +1,7 @@
+*.xcodeproj
+*.xcworkspace
+Derived/
+DerivedData/
+FontPerfTest/Resources/Fonts/
+results/
+traces/
