@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let swisstransfer = ESDSTheme(
         color: .swisstransfer,
         icon: .swisstransfer,
+        opacity: .swisstransfer,
         radius: .swisstransfer,
         spacing: .swisstransfer
     )
