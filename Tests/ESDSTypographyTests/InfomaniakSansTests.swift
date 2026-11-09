@@ -19,6 +19,9 @@
 import CoreText
 @testable import ESDSTypography
 import Testing
+#if canImport(UIKit)
+import UIKit
+#endif
 
 struct InfomaniakSansTests {
     @Test(arguments: ["InfomaniakSans", "InfomaniakSansItalic"])
@@ -31,4 +34,35 @@ struct InfomaniakSansTests {
         #expect(CTFontCopyPostScriptName(font) as String == postScriptName)
         #expect(CTFontCopyFamilyName(font) as String == InfomaniakSans.familyName)
     }
+
+    #if canImport(UIKit)
+    @Test(arguments: [
+        (ESDSTextStyle.md, UILegibilityWeight.regular, 400.0),
+        (.mdEmphasized, .regular, 500),
+        (.md, .bold, 600),
+        (.mdEmphasized, .bold, 700),
+    ])
+    func appliesWeightAndBoldText(style: ESDSTextStyle, legibilityWeight: UILegibilityWeight, expectedWeight: Double) {
+        let traits = UITraitCollection(traitsFrom: [
+            UITraitCollection(preferredContentSizeCategory: .large),
+            UITraitCollection(legibilityWeight: legibilityWeight),
+        ])
+
+        let font = UIFont.infomaniakSans(style, compatibleWith: traits)
+
+        // CoreText omits axes left at their default value, which is 400 for `wght`.
+        let variation = CTFontCopyVariation(font as CTFont) as? [Int: Double]
+        #expect(variation?[0x7767_6874] ?? 400 == expectedWeight)
+        #expect(font.familyName == InfomaniakSans.familyName)
+        #expect(font.pointSize == style.size)
+    }
+
+    @Test func scalesWithDynamicType() {
+        let traits = UITraitCollection(preferredContentSizeCategory: .accessibilityExtraExtraExtraLarge)
+
+        let font = UIFont.infomaniakSans(.md, compatibleWith: traits)
+
+        #expect(font.pointSize > ESDSTextStyle.md.size)
+    }
+    #endif
 }
