@@ -28,6 +28,9 @@ Defines the semantic token vocabulary as a brand-agnostic structure:
 One target per product. Each provides a single concrete instance of `ESDSTheme` (e.g. `ESDSTheme.mail`) that maps every semantic token to the primitive values for that brand, in both light and dark mode.
 This is the layer app code actually consumes.
 
+### `ESDSTypography`
+The Infomaniak Sans font and the typography presets of the design system (`ESDSTextStyle.xs` to `.sixXl`, each with an `Emphasized` variant). This target is written by hand, unlike the generated ones above, and is opt-in because it embeds the font files (~1.8 MB).
+
 ### `CatalogApp/`
 A small SwiftUI app scaffold (iOS/macOS) meant to visually browse and QA the tokens/themes exposed by the Design System.
 
@@ -66,3 +69,40 @@ struct BannerView: View {
 ```
 
 Swap `ESDSTheme.mail` for `.kdrive`, `.kchat`, `.calendar`, etc. to theme a different app — the token names stay identical across brands.
+
+## Typography
+
+Add the `ESDSTypography` product, then set the font once at the root of the app:
+
+```swift
+import ESDSTypography
+import SwiftUI
+
+@main
+struct MyApp: App {
+    init() {
+        // Navigation titles, bar buttons, tab bar items and segmented pickers
+        InfomaniakSans.applyToSystemAppearance()
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .font(.md) // Default font of every text without an explicit one
+        }
+    }
+}
+```
+
+Then use the presets where a different style is needed:
+
+```swift
+Text("Title").font(.twoXlEmphasized)
+Text("Caption").font(.xs)
+label.font = .infomaniakSans(.md) // UIKit, with adjustsFontForContentSizeCategory = true
+```
+
+- The font is registered automatically on first use, so `UIAppFonts` isn't needed.
+- Text scales with Dynamic Type, and gets heavier when Bold Text is enabled with the `font(_:)` modifier and `UIFont.infomaniakSans(_:compatibleWith:)`. A bare `Font.infomaniakSans(size:weight:relativeTo:)` doesn't react to Bold Text.
+- `.font(.body)`, `.font(.headline)`, etc. still use the system font: use `.font(ESDSTextStyle(.headline))` to get the Infomaniak Sans equivalent of a system text style.
+- Alerts, menus and system sheets always use the system font.
