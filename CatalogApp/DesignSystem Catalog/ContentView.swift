@@ -16,20 +16,24 @@
  along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+import ESDSTypography
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Tab("Typography", systemImage: "textformat") {
+                TypographyView()
+            }
+
+            Tab("Components", systemImage: "square.grid.2x2") {
+                ComponentsView()
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .font(.md)
 }

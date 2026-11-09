@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17EB689B2F6B03DD00F46174 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* DesignSystem */; };
+		17EB689B2F6B03DD00F46174 /* ESDSTypography in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* ESDSTypography */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17EB689B2F6B03DD00F46174 /* DesignSystem in Frameworks */,
+				17EB689B2F6B03DD00F46174 /* ESDSTypography in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +41,7 @@
 			children = (
 				170FCF252F435DB7005D27EE /* DesignSystem Catalog */,
 				170FCF242F435DB7005D27EE /* Products */,
+				17E042BE30A2036800736D52 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +56,15 @@
 		17D819142F6B04EC00488572 /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
+			sourceTree = "<group>";
+		};
+		17E042BE30A2036800736D52 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				17D819122F6B04EC00488572 /* DesignSystem Catalog.xcodeproj */,
+				17EB68922F6B03B700F46174 /* DesignSystem Catalog.xcodeproj */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		17EB68942F6B03B700F46174 /* Products */ = {
@@ -82,7 +92,7 @@
 			);
 			name = "DesignSystem Catalog";
 			packageProductDependencies = (
-				17EB689A2F6B03DD00F46174 /* DesignSystem */,
+				17EB689A2F6B03DD00F46174 /* ESDSTypography */,
 			);
 			productName = "DesignSystem Catalog";
 			productReference = 170FCF232F435DB7005D27EE /* DesignSystem Catalog.app */;
@@ -113,7 +123,7 @@
 			mainGroup = 170FCF1A2F435DB7005D27EE;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				17EB68992F6B03DD00F46174 /* XCRemoteSwiftPackageReference "ios-design-system" */,
+				17EB68992F6B03DD00F46174 /* XCLocalSwiftPackageReference ".." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 170FCF242F435DB7005D27EE /* Products */;
@@ -383,22 +393,18 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		17EB68992F6B03DD00F46174 /* XCRemoteSwiftPackageReference "ios-design-system" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Infomaniak/ios-design-system";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		17EB68992F6B03DD00F46174 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		17EB689A2F6B03DD00F46174 /* DesignSystem */ = {
+		17EB689A2F6B03DD00F46174 /* ESDSTypography */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 17EB68992F6B03DD00F46174 /* XCRemoteSwiftPackageReference "ios-design-system" */;
-			productName = DesignSystem;
+			package = 17EB68992F6B03DD00F46174 /* XCLocalSwiftPackageReference ".." */;
+			productName = ESDSTypography;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
