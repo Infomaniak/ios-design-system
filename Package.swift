@@ -15,6 +15,10 @@ let package = Package(
             targets: ["ESDSSymbols"]
         ),
         .library(
+            name: "ESDSTypography",
+            targets: ["ESDSTypography"]
+        ),
+        .library(
             name: "ESDSCalendar",
             targets: ["ESDSCalendar"]
         ),
@@ -67,6 +71,14 @@ let package = Package(
         .target(
             name: "ESDSSymbols",
             resources: [.process("Symbols.xcassets")]
+        ),
+        .target(
+            name: "ESDSTypography",
+            resources: [.copy("Fonts")]
+        ),
+        .testTarget(
+            name: "ESDSTypographyTests",
+            dependencies: ["ESDSTypography"]
         ),
         .target(
             name: "ESDSCalendar",
