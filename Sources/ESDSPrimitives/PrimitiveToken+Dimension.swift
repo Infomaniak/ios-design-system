@@ -21,11 +21,12 @@
 import Foundation
 
 public extension PrimitiveToken {
-    enum Scale: Sendable {
+    enum Dimension: Sendable {
         public static let zero: CGFloat = 0
         public static let one: CGFloat = 1
         public static let two: CGFloat = 2
         public static let four: CGFloat = 4
+        public static let six: CGFloat = 6
         public static let eight: CGFloat = 8
         public static let ten: CGFloat = 10
         public static let twelve: CGFloat = 12
@@ -33,14 +34,17 @@ public extension PrimitiveToken {
         public static let sixteen: CGFloat = 16
         public static let twenty: CGFloat = 20
         public static let twentyFour: CGFloat = 24
+        public static let twentyEight: CGFloat = 28
         public static let thirtyTwo: CGFloat = 32
         public static let thirtySix: CGFloat = 36
         public static let forty: CGFloat = 40
         public static let fortyFour: CGFloat = 44
         public static let fortyEight: CGFloat = 48
+        public static let fifty: CGFloat = 50
         public static let fiftySix: CGFloat = 56
         public static let sixtyFour: CGFloat = 64
         public static let eighty: CGFloat = 80
+        public static let eightyFive: CGFloat = 85
         public static let ninetySix: CGFloat = 96
         public static let oneHundredTwelve: CGFloat = 112
         public static let oneHundredTwentyEight: CGFloat = 128
@@ -54,5 +58,6 @@ public extension PrimitiveToken {
         public static let twoHundredEightyEight: CGFloat = 288
         public static let threeHundredTwenty: CGFloat = 320
         public static let threeHundredEightyFour: CGFloat = 384
+        public static let minus8: CGFloat = -8
     }
 }
