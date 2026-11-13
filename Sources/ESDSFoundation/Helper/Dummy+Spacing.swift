@@ -28,6 +28,8 @@ extension ESDSTheme.Spacing {
         fourXl: PrimitiveToken.Spacing.thirtyTwo,
         lg: PrimitiveToken.Spacing.twelve,
         md: PrimitiveToken.Spacing.eight,
+        minusMd: PrimitiveToken.Spacing.minus8,
+        minusSm: PrimitiveToken.Spacing.minus6,
         none: PrimitiveToken.Spacing.zero,
         sevenXl: PrimitiveToken.Spacing.sixtyFour,
         sixXl: PrimitiveToken.Spacing.fortyEight,

@@ -27,6 +27,8 @@ public extension ESDSTheme {
         public let fourXl: CGFloat
         public let lg: CGFloat
         public let md: CGFloat
+        public let minusMd: CGFloat
+        public let minusSm: CGFloat
         public let none: CGFloat
         public let sevenXl: CGFloat
         public let sixXl: CGFloat
@@ -43,6 +45,8 @@ public extension ESDSTheme {
             fourXl: CGFloat,
             lg: CGFloat,
             md: CGFloat,
+            minusMd: CGFloat,
+            minusSm: CGFloat,
             none: CGFloat,
             sevenXl: CGFloat,
             sixXl: CGFloat,
@@ -58,6 +62,8 @@ public extension ESDSTheme {
             self.fourXl = fourXl
             self.lg = lg
             self.md = md
+            self.minusMd = minusMd
+            self.minusSm = minusSm
             self.none = none
             self.sevenXl = sevenXl
             self.sixXl = sixXl
