@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let contacts = ESDSTheme(
         color: .contacts,
         icon: .contacts,
+        opacity: .contacts,
         radius: .contacts,
         spacing: .contacts
     )
