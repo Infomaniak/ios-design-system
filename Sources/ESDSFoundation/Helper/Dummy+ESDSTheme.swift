@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let dummy = ESDSTheme(
         color: .dummy,
         icon: .dummy,
+        opacity: .dummy,
         radius: .dummy,
         spacing: .dummy
     )
