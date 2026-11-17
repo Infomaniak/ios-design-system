@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let euria = ESDSTheme(
         color: .euria,
         icon: .euria,
+        opacity: .euria,
         radius: .euria,
         spacing: .euria
     )
