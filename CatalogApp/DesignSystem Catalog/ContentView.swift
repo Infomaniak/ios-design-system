@@ -33,6 +33,11 @@ struct ContentView: View {
                 ContainersShowcaseView()
             }
             .badge("New")
+
+            Tab("Presentations", systemImage: "rectangle.stack") {
+                PresentationsShowcaseView()
+            }
+            .badge(3)
         }
     }
 }
