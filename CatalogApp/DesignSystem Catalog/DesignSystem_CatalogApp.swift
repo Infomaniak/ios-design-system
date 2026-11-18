@@ -21,6 +21,12 @@ import SwiftUI
 
 @main
 struct DesignSystem_CatalogApp: App {
+    init() {
+        #if canImport(UIKit)
+        InfomaniakSans.applyToSystemAppearance()
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
