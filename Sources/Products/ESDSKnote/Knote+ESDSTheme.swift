@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let knote = ESDSTheme(
         color: .knote,
         icon: .knote,
+        opacity: .knote,
         radius: .knote,
         spacing: .knote
     )

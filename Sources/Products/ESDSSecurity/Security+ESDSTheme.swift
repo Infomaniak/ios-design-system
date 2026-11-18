@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let security = ESDSTheme(
         color: .security,
         icon: .security,
+        opacity: .security,
         radius: .security,
         spacing: .security
     )
