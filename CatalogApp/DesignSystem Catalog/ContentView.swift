@@ -24,6 +24,10 @@ struct ContentView: View {
             Tab("Text", systemImage: "text.alignleft") {
                 TextShowcaseView()
             }
+
+            Tab("Controls", systemImage: "slider.horizontal.3") {
+                ControlsShowcaseView()
+            }
         }
     }
 }
