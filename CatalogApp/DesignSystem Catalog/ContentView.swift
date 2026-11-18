@@ -20,13 +20,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Tab("Text", systemImage: "text.alignleft") {
+                TextShowcaseView()
+            }
+
+            Tab("Controls", systemImage: "slider.horizontal.3") {
+                ControlsShowcaseView()
+            }
+
+            Tab("Containers", systemImage: "list.bullet.rectangle") {
+                ContainersShowcaseView()
+            }
+            .badge("New")
+
+            Tab("Presentations", systemImage: "rectangle.stack") {
+                PresentationsShowcaseView()
+            }
+            .badge(3)
         }
-        .padding()
     }
 }
 
