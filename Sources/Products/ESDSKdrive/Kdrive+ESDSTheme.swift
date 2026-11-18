@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let kdrive = ESDSTheme(
         color: .kdrive,
         icon: .kdrive,
+        opacity: .kdrive,
         radius: .kdrive,
         spacing: .kdrive
     )
