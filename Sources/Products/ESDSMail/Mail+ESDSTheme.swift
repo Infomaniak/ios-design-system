@@ -24,6 +24,7 @@ public extension ESDSTheme {
     static let mail = ESDSTheme(
         color: .mail,
         icon: .mail,
+        opacity: .mail,
         radius: .mail,
         spacing: .mail
     )
