@@ -28,6 +28,11 @@ struct ContentView: View {
             Tab("Controls", systemImage: "slider.horizontal.3") {
                 ControlsShowcaseView()
             }
+
+            Tab("Containers", systemImage: "list.bullet.rectangle") {
+                ContainersShowcaseView()
+            }
+            .badge("New")
         }
     }
 }
