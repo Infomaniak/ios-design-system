@@ -16,6 +16,7 @@
  along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+import ESDSTypography
 import SwiftUI
 
 @main
@@ -23,6 +24,7 @@ struct DesignSystem_CatalogApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .font(.md)
         }
     }
 }
