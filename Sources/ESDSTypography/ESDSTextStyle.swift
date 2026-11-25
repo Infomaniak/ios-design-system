@@ -18,6 +18,29 @@
 
 import CoreText
 import SwiftUI
+#if canImport(UIKit)
+import UIKit
+#elseif canImport(AppKit)
+import AppKit
+
+extension NSFont.TextStyle {
+    init(_ textStyle: Font.TextStyle) {
+        self = switch textStyle {
+        case .largeTitle: .largeTitle
+        case .title: .title1
+        case .title2: .title2
+        case .title3: .title3
+        case .headline: .headline
+        case .subheadline: .subheadline
+        case .callout: .callout
+        case .footnote: .footnote
+        case .caption: .caption1
+        case .caption2: .caption2
+        default: .body
+        }
+    }
+}
+#endif
 
 /// A typography preset of the design system, rendered with ``InfomaniakSans``.
 ///
@@ -40,22 +63,24 @@ public struct ESDSTextStyle: Hashable, Sendable {
         lineSpacing = Self.lineSpacing(size: size, lineHeight: lineHeight)
     }
 
-    /// The Infomaniak Sans equivalent of a system text style, with the iOS default size and weight.
+    /// Infomaniak Sans at the iOS default size of `textStyle` (Dynamic Type `large`), with the natural line height.
+    public init(weight: Weight = .regular, relativeTo textStyle: Font.TextStyle) {
+        self.init(size: Self.systemSize(of: textStyle), weight: weight, relativeTo: textStyle)
+    }
+
+    /// The Infomaniak Sans equivalent of a system text style, with the system default size and weight.
     public init(_ textStyle: Font.TextStyle) {
-        let metrics: (size: CGFloat, weight: Weight) = switch textStyle {
-        case .largeTitle: (34, .regular)
-        case .title: (28, .regular)
-        case .title2: (22, .regular)
-        case .title3: (20, .regular)
-        case .headline: (17, .semibold)
-        case .callout: (16, .regular)
-        case .subheadline: (15, .regular)
-        case .footnote: (13, .regular)
-        case .caption: (12, .regular)
-        case .caption2: (11, .regular)
-        default: (17, .regular)
-        }
-        self.init(size: metrics.size, weight: metrics.weight, relativeTo: textStyle)
+        self.init(weight: textStyle == .headline ? .semibold : .regular, relativeTo: textStyle)
+    }
+
+    /// Point size of the system font for `textStyle` at the default content size category.
+    static func systemSize(of textStyle: Font.TextStyle) -> CGFloat {
+        #if canImport(UIKit)
+        let traits = UITraitCollection(preferredContentSizeCategory: .large)
+        return UIFont.preferredFont(forTextStyle: UIFont.TextStyle(textStyle), compatibleWith: traits).pointSize
+        #elseif canImport(AppKit)
+        return NSFont.preferredFont(forTextStyle: NSFont.TextStyle(textStyle)).pointSize
+        #endif
     }
 
     private static func lineSpacing(size: CGFloat, lineHeight: CGFloat?) -> CGFloat {
@@ -119,26 +144,27 @@ public extension ESDSTextStyle {
 
 // MARK: - Design tokens
 
-// Mirrors `typography.tokens.json` of the Infomaniak design system.
+// Names mirror `typography.tokens.json` of the Infomaniak design system;
+// sizes follow the system font of the matching text style.
 public extension ESDSTextStyle {
-    static let xs = ESDSTextStyle(size: 12, lineHeight: 16, relativeTo: .caption)
-    static let xsEmphasized = ESDSTextStyle(size: 12, weight: .medium, lineHeight: 16, relativeTo: .caption)
-    static let sm = ESDSTextStyle(size: 14, lineHeight: 20, relativeTo: .subheadline)
-    static let smEmphasized = ESDSTextStyle(size: 14, weight: .medium, lineHeight: 20, relativeTo: .subheadline)
-    static let md = ESDSTextStyle(size: 16, lineHeight: 24, relativeTo: .body)
-    static let mdEmphasized = ESDSTextStyle(size: 16, weight: .medium, lineHeight: 24, relativeTo: .body)
-    static let lg = ESDSTextStyle(size: 18, lineHeight: 26, relativeTo: .body)
-    static let lgEmphasized = ESDSTextStyle(size: 18, weight: .medium, lineHeight: 26, relativeTo: .body)
-    static let xl = ESDSTextStyle(size: 20, lineHeight: 28, relativeTo: .title3)
-    static let xlEmphasized = ESDSTextStyle(size: 20, weight: .medium, lineHeight: 28, relativeTo: .title3)
-    static let twoXl = ESDSTextStyle(size: 24, lineHeight: 32, relativeTo: .title2)
-    static let twoXlEmphasized = ESDSTextStyle(size: 24, weight: .medium, lineHeight: 32, relativeTo: .title2)
-    static let threeXl = ESDSTextStyle(size: 32, lineHeight: 40, relativeTo: .title)
-    static let threeXlEmphasized = ESDSTextStyle(size: 32, weight: .medium, lineHeight: 40, relativeTo: .title)
-    static let fourXl = ESDSTextStyle(size: 40, lineHeight: 48, relativeTo: .largeTitle)
-    static let fourXlEmphasized = ESDSTextStyle(size: 40, weight: .medium, lineHeight: 48, relativeTo: .largeTitle)
-    static let fiveXl = ESDSTextStyle(size: 48, lineHeight: 56, relativeTo: .largeTitle)
-    static let fiveXlEmphasized = ESDSTextStyle(size: 48, weight: .medium, lineHeight: 56, relativeTo: .largeTitle)
-    static let sixXl = ESDSTextStyle(size: 52, lineHeight: 60, relativeTo: .largeTitle)
-    static let sixXlEmphasized = ESDSTextStyle(size: 52, weight: .medium, lineHeight: 60, relativeTo: .largeTitle)
+    static let xs = ESDSTextStyle(relativeTo: .caption)
+    static let xsEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .caption)
+    static let sm = ESDSTextStyle(relativeTo: .subheadline)
+    static let smEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .subheadline)
+    static let md = ESDSTextStyle(relativeTo: .body)
+    static let mdEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .body)
+    static let lg = ESDSTextStyle(relativeTo: .body)
+    static let lgEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .body)
+    static let xl = ESDSTextStyle(relativeTo: .title3)
+    static let xlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .title3)
+    static let twoXl = ESDSTextStyle(relativeTo: .title2)
+    static let twoXlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .title2)
+    static let threeXl = ESDSTextStyle(relativeTo: .title)
+    static let threeXlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .title)
+    static let fourXl = ESDSTextStyle(relativeTo: .largeTitle)
+    static let fourXlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .largeTitle)
+    static let fiveXl = ESDSTextStyle(relativeTo: .largeTitle)
+    static let fiveXlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .largeTitle)
+    static let sixXl = ESDSTextStyle(relativeTo: .largeTitle)
+    static let sixXlEmphasized = ESDSTextStyle(weight: .medium, relativeTo: .largeTitle)
 }
