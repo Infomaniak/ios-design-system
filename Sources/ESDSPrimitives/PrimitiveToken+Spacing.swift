@@ -36,5 +36,7 @@ public extension PrimitiveToken {
         public static let fortyEight: CGFloat = 48
         public static let sixtyFour: CGFloat = 64
         public static let oneHundred: CGFloat = 100
+        public static let minus8: CGFloat = -8
+        public static let minus6: CGFloat = -6
     }
 }
