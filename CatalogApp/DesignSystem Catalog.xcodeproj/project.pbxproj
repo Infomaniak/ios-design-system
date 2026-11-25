@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17EB689B2F6B03DD00F46174 /* ESDSFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* ESDSFoundation */; };
+		17EB689B2F6B03DD00F46174 /* ESDSTypography in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB689A2F6B03DD00F46174 /* ESDSTypography */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17EB689B2F6B03DD00F46174 /* ESDSFoundation in Frameworks */,
+				17EB689B2F6B03DD00F46174 /* ESDSTypography in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			);
 			name = "DesignSystem Catalog";
 			packageProductDependencies = (
-				17EB689A2F6B03DD00F46174 /* ESDSFoundation */,
+				17EB689A2F6B03DD00F46174 /* ESDSTypography */,
 			);
 			productName = "DesignSystem Catalog";
 			productReference = 170FCF232F435DB7005D27EE /* DesignSystem Catalog.app */;
@@ -388,17 +388,17 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Infomaniak/ios-design-system";
 			requirement = {
-				branch = main;
+				branch = "feat/infomaniak-font";
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		17EB689A2F6B03DD00F46174 /* ESDSFoundation */ = {
+		17EB689A2F6B03DD00F46174 /* ESDSTypography */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 17EB68992F6B03DD00F46174 /* XCRemoteSwiftPackageReference "ios-design-system" */;
-			productName = ESDSFoundation;
+			productName = ESDSTypography;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
