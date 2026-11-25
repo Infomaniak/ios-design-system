@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Infomaniak/ios-design-system",
       "state" : {
-        "branch" : "main",
-        "revision" : "b75baca93a79a787f34bd80791535baa52d8960f"
+        "branch" : "feat/infomaniak-font",
+        "revision" : "12a83bac59c65571b072ef820fd045e5af48f5ed"
       }
     }
   ],

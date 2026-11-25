@@ -16,13 +16,21 @@
  along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+import ESDSTypography
 import SwiftUI
 
 @main
 struct DesignSystem_CatalogApp: App {
+    init() {
+        #if canImport(UIKit)
+        InfomaniakSans.applyToSystemAppearance()
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .font(.md)
         }
     }
 }
